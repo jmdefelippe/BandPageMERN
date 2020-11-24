@@ -1,12 +1,13 @@
 import React from 'react';
-
+import Header from './layout/Header';
+import Footer from './layout/Footer';
 
 const Biografia = () => {
     return(
         <div className="contenedor-app">
             <div className="seccion-principal">
                 <main>
-                    
+                    <Header />
                         <div class="row">
                             <div class="col-1"></div>
                             <div class="col-4">
@@ -29,7 +30,7 @@ const Biografia = () => {
                             </div>
                             <div class="col-1"></div>
                         </div>
-                    
+                    <Footer />
                 </main>
             </div>
         </div>

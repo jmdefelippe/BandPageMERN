@@ -10,7 +10,6 @@ const Inicio = () => {
                 <Header />
                 <main>
                     <img src="img/inicio.jpg" class="responsive"  alt="inicio"/>
-                    <Biografia />
                 </main>
                 <Footer/>
             </div>

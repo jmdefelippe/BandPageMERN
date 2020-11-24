@@ -23,7 +23,7 @@ body {
   min-height: 100%;
   background-color: black;
   font-size: 16px; 
-  font-size: 3.2rem;
+  font-size: 3.3rem;
   font-family: var(--textFont);
   color: white;
 }
@@ -41,7 +41,7 @@ h1 span {
 h1 {
   font-family: var(--headingFont);
   color: var(--naranja3);
-  font-size: 3.6rem;
+  font-size: 3.2rem;
   font-weight: 900;
   margin: 0 0 2rem 0;
   text-align: left;
