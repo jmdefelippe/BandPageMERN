@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className="app-footer">
             {/* <p className="nombre-usuario">Hola <span>Joan</span></p> */}
             <div className="nav-principal">
-                <Link to={'/inicio'}>Inicio</Link>
+                <Link to={'/biografia'}>Biografia</Link>
             </div>
             <div className="nav-principal">
                 <Link to={'/integrantes'}>Integrantes</Link>

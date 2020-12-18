@@ -23,7 +23,7 @@ body {
   min-height: 100%;
   background-color: black;
   font-size: 16px; 
-  font-size: 3.3rem;
+  font-size: 3.0rem;
   font-family: var(--textFont);
   color: white;
 }
@@ -172,7 +172,7 @@ a {
   align-items: center;
   background-color: var(--naranja3);
   font-family: var(--headingFont);
-  padding: 3rem;
+  padding: 2.2rem;
   margin-top: 2.4rem;
   margin-bottom: 2.4rem;
 }
@@ -433,6 +433,14 @@ a {
   box-sizing: border-box;
 }
 
+/*
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+*/
+
 .row::after {
   content: "";
   clear: both;
@@ -446,8 +454,10 @@ a {
 }
 
 .col-1 {width: 8.33%;}
+.col-1-5 {width: 12.5%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
+.col-3-5 {width: 29.16%}
 .col-4 {width: 33.33%;}
 .col-5 {width: 41.66%;}
 .col-6 {width: 50%;}
@@ -457,3 +467,51 @@ a {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+.coverSize {
+  width: 384px;
+  height: 240px;
+  margin: 0px 10px 10px 10px;
+}
+
+.contenedorCovers {
+  text-align: center;
+}
+.albumTitulo {
+  text-align: center;
+}
+
+.cancion {
+  min-height: 100%;
+  font-size: 16px; 
+  font-size: 1.6rem;
+  font-family: var(--textFont);
+  color: white;
+  padding: 2px;
+}
+
+.contenedor-integrantes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contenedor-albumes {
+  display: flex;
+  
+}
+
+/*
+.coverSizeLg {
+  width: 500px;
+  height: 360px;
+  margin: 0px 10px 10px 10px;
+}
+.coverSizeSm {
+  width: 280px;
+  height: 180px;
+  margin: 0px 10px 10px 10px;
+}
+.coverCol {
+  text-align: left;
+}
+*/

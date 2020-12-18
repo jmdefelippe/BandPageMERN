@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './layout/Header';
 import Footer from './layout/Footer';
-import Biografia from './Biografia';
 
 const Inicio = () => {
     return(
