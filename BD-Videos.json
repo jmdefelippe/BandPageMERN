@@ -1,0 +1,212 @@
+[
+	{
+		"titulo" : "Longview",
+		"imagen" : "longview.jpg",
+		"link": "https://www.youtube.com/watch?v=42BBdzzgPNM",
+		"album": "Dookie"
+	},
+	{
+		"titulo" : "Welcome To Paradise",
+		"imagen" : "welcomeToParadise.jpg",
+		"link": "https://www.youtube.com/watch?v=OR7R9Kuw2fY",
+		"album": "Dookie"
+	},
+	{
+		"titulo" : "Basket Case",
+		"imagen" : "basketCase.jpg",
+		"link": "https://www.youtube.com/watch?v=NUTGr5t3MoY",
+		"album": "Dookie"
+	},
+	{
+		"titulo" : "She",
+		"imagen" : "she.jpg",
+		"link": "https://www.youtube.com/watch?v=vkySGM7gysg",
+		"album": "Dookie"
+	},
+	{
+		"titulo" : "When I Come Around",
+		"imagen" : "whenIComeAround.jpg",
+		"link": "https://www.youtube.com/watch?v=i8dh9gDzmz8",
+		"album": "Dookie"
+	},
+	{
+		"titulo" : "Geek Stink Breath",
+		"imagen" : "geekStinkBreath.jpg",
+		"link": "https://www.youtube.com/watch?v=1r_WQXvGhv8",
+		"album": "Insomniac"
+	},
+	{
+		"titulo" : "Stuck With Me",
+		"imagen" : "stuckWithMe.jpg",
+		"link": "https://www.youtube.com/watch?v=fevGo3H5840",
+		"album": "Insomniac"
+	},
+	{
+		"titulo" : "Brain Stew / Jaded",
+		"imagen" : "brainStewJaded.jpg",
+		"link": "https://www.youtube.com/watch?v=UNq9gmY_Oz4",
+		"album": "Insomniac"
+	},
+	{
+		"titulo" : "Walking Contradiction",
+		"imagen" : "walkingContradiction.jpg",
+		"link": "https://www.youtube.com/watch?v=I5zEP4kvfnc",
+		"album": "Insomniac"
+	},	
+	{
+		"titulo" : "Hitchin' a ride",
+		"imagen" : "hitchinARide.jpg",
+		"link": "https://www.youtube.com/watch?v=b6jtGjiDwIQ",
+		"album": "Nimrod"
+	},
+	{
+		"titulo" : "Good riddance (Time of your life)",
+		"imagen" : "goodRiddanceTimeOfYourLife.jpg",
+		"link": "https://www.youtube.com/watch?v=CnQ8N1KacJc",
+		"album": "Nimrod"
+	},
+	{
+		"titulo" : "Redundant",
+		"imagen" : "redundant.jpg",
+		"link": "https://www.youtube.com/watch?v=6ydpSVvXE9k",
+		"album": "Nimrod"
+	},
+	{
+		"titulo" : "Nice Guys Finish Last",
+		"imagen" : "niceGuysFinishLast.jpg",
+		"link": "https://www.youtube.com/watch?v=1nDq1HoNm-E",
+		"album": "Nimrod"
+	},
+	{
+		"titulo" : "Last Ride In",
+		"imagen" : "lastRideIn.jpg",
+		"link": "https://www.youtube.com/watch?v=DhfhAmOIm78",
+		"album": "Nimrod"
+	},
+	{
+		"titulo" : "Minority",
+		"imagen" : "minority.jpg",
+		"link": "https://www.youtube.com/watch?v=cDBlqu6KF4k",
+		"album": "Warning"
+	},
+	{
+		"titulo" : "Warning",
+		"imagen" : "warning.jpg",
+		"link": "https://www.youtube.com/watch?v=eebfMFzJHNs",
+		"album": "Warning"
+	},
+	{
+		"titulo" : "Warning",
+		"imagen" : "waiting.jpg",
+		"link": "https://www.youtube.com/watch?v=xc1Uld0k4W4",
+		"album": "Warning"
+	},
+	{
+		"titulo" : "Macy's Day Parade",
+		"imagen" : "macysDayParade.jpg",
+		"link": "https://www.youtube.com/watch?v=4EL4njT8g98",
+		"album": "Warning"
+	},
+	{
+		"titulo" : "Poprocks And Coke",
+		"imagen" : "poprocksAndCoke.jpg",
+		"link": "https://www.youtube.com/watch?v=-vG-kOoapPo",
+		"album": "International Superhits"
+	},
+	{
+		"titulo" : "American Idiot",
+		"imagen" : "americanIdiot.jpg",
+		"link": "https://www.youtube.com/watch?v=Ee_uujKuJMI",
+		"album": "American Idiot"
+	},
+	{
+		"titulo" : "Boulevard Of Broken Dreams",
+		"imagen" : "boulevardOfBrokenDreams.jpg",
+		"link": "https://www.youtube.com/watch?v=Soa3gO7tL-c",
+		"album": "American Idiot"
+	},
+	{
+		"titulo" : "Holiday",
+		"imagen" : "holiday.jpg",
+		"link": "https://www.youtube.com/watch?v=A1OqtIqzScI",
+		"album": "American Idiot"
+	},
+	{
+		"titulo" : "Wake Me Up When September Ends",
+		"imagen" : "wakeMeUpWhenSeptemberEnds.jpg",
+		"link": "https://www.youtube.com/watch?v=NU9JoFKlaZ0",
+		"album": "American Idiot"
+	},
+	{
+		"titulo" : "JesusOfSuburbia",
+		"imagen" : "jesusOfSuburbia.jpg",
+		"link": "https://www.youtube.com/watch?v=fZFmaMbkUD4",
+		"album": "American Idiot"
+	},
+	{
+		"titulo" : "St. Jimmy",
+		"imagen" : "stJimmy.jpg",
+		"link": "https://www.youtube.com/watch?v=9mmeGEbW6UQ",
+		"album": "American Idiot"
+	},
+	{
+		"titulo" : "Know Your Enemy",
+		"imagen" : "knowYourEnemy.jpg",
+		"link": "https://www.youtube.com/watch?v=9IclmVdWNbI",
+		"album": "21st Century Breakdown"
+	},
+	{
+		"titulo" : "21 Guns",
+		"imagen" : "21Guns.jpg",
+		"link": "https://www.youtube.com/watch?v=r00ikilDxW4",
+		"album": "21st Century Breakdown"
+	},
+	{
+		"titulo" : "21st Century Breakdown",
+		"imagen" : "21stCenturyBreakdown.jpg",
+		"link": "https://www.youtube.com/watch?v=D4ZKlT1EvCA",
+		"album": "21st Century Breakdown"
+	},
+	{
+		"titulo" : "Last Of The American Girls",
+		"imagen" : "lastOfTheAmericanGirls.jpg",
+		"link": "https://www.youtube.com/watch?v=HR8Ia6vyV5Q",
+		"album": "21st Century Breakdown"
+	},
+	{
+		"titulo" : "Let Yourself Go",
+		"imagen" : "letYourselfGo.jpg",
+		"link": "https://www.youtube.com/watch?v=N_8C3Z1W_HI",
+		"album": "¡Uno!"
+	},
+	{
+		"titulo" : "Oh Love",
+		"imagen" : "ohLove.jpg",
+		"link": "https://www.youtube.com/watch?v=IWwMqa-_210",
+		"album": "¡Uno!"
+	},
+	{
+		"titulo" : "Kill The Dj",
+		"imagen" : "killTheDj.jpg",
+		"link": "https://www.youtube.com/watch?v=jW7VhkNqjnc",
+		"album": "¡Uno!"
+	},
+	{
+		"titulo" : "Nuclear Family",
+		"imagen" : "nuclearFamily.jpg",
+		"link": "https://www.youtube.com/watch?v=jHmSyGjf6BA",
+		"album": "¡Uno!"
+	},
+	{
+		"titulo" : "Stay The Night",
+		"imagen" : "stayTheNight.jpg",
+		"link": "https://www.youtube.com/watch?v=DjQoWfstQUU",
+		"album": "¡Uno!"
+	},
+	{
+		"titulo" : "Troublemaker",
+		"imagen" : "troublemaker.jpg",
+		"link": "https://www.youtube.com/watch?v=p7bWJ7eFju4",
+		"album": "¡Uno!"
+	}
+]

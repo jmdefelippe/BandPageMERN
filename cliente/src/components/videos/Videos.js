@@ -1,20 +1,21 @@
 import React from 'react';
-import Header from './layout/Header';
-import Footer from './layout/Footer';
+import Header from '../layout/Header';
+import Footer from '../layout/Footer';
+import ListadoVideos from '../videos/ListadoVideos';
 
-const Fotos = () => {
+const Videos = () => {
     return(
         <div className="contenedor-app">
             <div className="seccion-principal">
                 <Header />
                 <main>
-                    <h1>Desde Fotos</h1>
+                    <ListadoVideos/>
                 </main>
-                <Footer/>
+                <Footer />
             </div>
         </div>
         
     );
 }
 
-export default Fotos;
+export default Videos;

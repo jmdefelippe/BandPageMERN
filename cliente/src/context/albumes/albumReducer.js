@@ -1,6 +1,7 @@
 import {
     OBTENER_ALBUMES,
-    ALBUM_ERROR
+    ALBUM_ERROR,
+    CANCION_ACTUAL
 } from '../../types';
 
 export default (state, action) => {
@@ -15,6 +16,12 @@ export default (state, action) => {
             return {
                 ...state,
                 mensaje: action.payload
+            }
+        case CANCION_ACTUAL:
+            return {
+                ...state,
+                cancion: state.albumes.canciones.find(cancion => cancion.titulo ===
+                action.payload)
             }
         default:
             return state;

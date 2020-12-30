@@ -4,7 +4,8 @@ import albumContext from './albumContext';
 import albumReducer from './albumReducer';
 import {
     OBTENER_ALBUMES,
-    ALBUM_ERROR
+    ALBUM_ERROR,
+    CANCION_ACTUAL
 } from '../../types';
 
 import clienteAxios from '../../config/axios';
@@ -55,12 +56,21 @@ const AlbumState = props => {
         }
     }
 
+    // obtener la canción seleccionada
+    const cancionActual = ( cancionElegida, albumElegido ) => {
+        dispatch({
+            type: CANCION_ACTUAL,
+            payload: { cancionElegida, albumElegido }
+        })
+    }
+
     return (
         <albumContext.Provider
             value={{
                 albumes: state.albumes,
                 mensaje: state.mensaje,
-                obtenerAlbumes
+                obtenerAlbumes,
+                cancionActual
             }}
         >
             {props.children}

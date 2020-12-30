@@ -17,10 +17,10 @@ const Header = () => {
                 <Link to={'/integrantes'}>Integrantes</Link>
             </div>
             <div className="nav-principal">
-                <Link to={'/discografia'}>discografia</Link>
+                <Link to={'/fotos'}>Fotos</Link>
             </div>
             <div className="nav-principal">
-                <Link to={'/fotos'}>Fotos</Link>
+                <Link to={'/discografia'}>Discografia</Link>
             </div>
             <div className="nav-principal">
                 <Link to={'/videos'}>Videos</Link>

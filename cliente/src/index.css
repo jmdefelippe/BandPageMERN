@@ -489,6 +489,10 @@ a {
   color: white;
   padding: 2px;
 }
+.iconLyrics {
+  width: 15px;
+  height: 15px;
+}
 
 .contenedor-integrantes {
   display: flex;
@@ -499,6 +503,19 @@ a {
   display: flex;
   
 }
+
+.contenedor-videos {
+/*  display: flex;
+  position: center;
+  left: 10px;
+  border: 3px solid #73AD21;
+*/
+}
+.video {
+  width: 20%;
+  justify-content: space-between;
+}
+
 
 /*
 .coverSizeLg {

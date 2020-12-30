@@ -1,7 +1,6 @@
 import React, { useContext, useEffect } from 'react';
 import Header from '../layout/Header';
 import Footer from '../layout/Footer';
-import integranteContext from '../../context/integrantes/integranteContext';
 import ListadoIntegrantes from '../integrantes/ListadoIntegrantes';
 
 const Integrantes = () => {

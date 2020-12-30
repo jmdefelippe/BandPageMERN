@@ -24,6 +24,7 @@ const port = process.env.port || 4000;
 //app.use('/api/tareas', require('./routes/tareas'));
 app.use('/api/integrantes', require('./routes/integrantes'));
 app.use('/api/albumes', require('./routes/albumes'));
+app.use('/api/videos', require('./routes/videos'));
 
 // arrancar la app
 app.listen(port, '0.0.0.0', () => {
