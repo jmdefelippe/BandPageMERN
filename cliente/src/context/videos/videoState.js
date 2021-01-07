@@ -23,7 +23,7 @@ const VideoState = props => {
     const obtenerVideos = async () => {
         try {
             const resultado = await clienteAxios.get('/api/videos');
-            
+
             dispatch({
                 type: OBTENER_VIDEOS,
                 payload: resultado.data

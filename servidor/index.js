@@ -2,6 +2,13 @@ const express = require('express');
 const conectarDB = require('./config/db');
 const cors = require('cors');
 
+const integrantes = require('./routes/integrantes');
+const albumes = require('./routes/albumes');
+const videos = require('./routes/videos');
+const galerias = require('./routes/galerias');
+const fotos = require('./routes/fotos');
+const biografia = require('./routes/biografia');
+
 // crear el servidor
 const app = express();
 
@@ -18,13 +25,12 @@ app.use(express.json({ extended: true }));
 const port = process.env.port || 4000;
 
 // importar rutas
-//app.use('/api/usuarios', require('./routes/usuarios'));
-//app.use('/api/auth', require('./routes/auth'));
-//app.use('/api/proyectos', require('./routes/proyectos'));
-//app.use('/api/tareas', require('./routes/tareas'));
-app.use('/api/integrantes', require('./routes/integrantes'));
-app.use('/api/albumes', require('./routes/albumes'));
-app.use('/api/videos', require('./routes/videos'));
+app.use('/api/integrantes', integrantes);
+app.use('/api/albumes', albumes);
+app.use('/api/videos', videos);
+app.use('/api/galerias', galerias);
+app.use('/api/fotos', fotos);
+app.use('/api/biografia', biografia);
 
 // arrancar la app
 app.listen(port, '0.0.0.0', () => {

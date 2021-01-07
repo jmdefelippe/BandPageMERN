@@ -1,0 +1,23 @@
+[
+	{
+		"nombre": "Billie Joe",
+		"rol": "Vocalista / Guitarrista",
+		"imagen": "billie.jpg",
+		"fechaNacimiento": "1972-02-17",
+		"biografia": "Billie Joe Armstrong es un cantante, compositor, músico, productor discográfico, y actor estadounidense. Armstrong ha sido el vocalista principal, compositor principal y guitarrista principal de la banda de punk rock Green Day, co-fundada junto a Mike Dirnt. También es guitarrista y vocalista de la banda de punk rock Pinhead Gunpowder, y ha proporcionado la voz principal para los proyectos paralelos de Green Day, Foxboro Hot Tubs, The Network, The Longshot y The Coverups.\n\nCriado en Rodeo, California, Armstrong desarrolló un interés por la música a una temprana edad, y grabó su primera canción a la edad de cinco años. Conoció a Mike Dirnt mientras asistía a la escuela primaria, y los dos se unieron al instante por su interés mutuo en la música, formando la banda Sweet Children cuando los dos tenían 14 años. La banda cambió su nombre a Green Day, y más tarde alcanzaría el éxito comercial. Armstrong también ha llevado a cabo proyectos musicales fuera de su trabajo en Green Day, incluidas numerosas colaboraciones con otros músicos.\n\nEn 1997, para coincidir con el lanzamiento de Nimrod, Armstrong fundó Adeline Records en Oakland para ayudar a otras bandas a lanzar música, y firmó bandas como The Frustrators, AFI y Dillinger Four. La compañía discográfica luego estuvo bajo la dirección de Pat Magnarella y finalmente cerró en agosto de 2017."
+	},
+	{
+		"nombre": "Mike Dirnt",
+		"rol": "Bajista",
+		"imagen": "mike.jpg",
+		"fechaNacimiento": "1972-05-04",
+		"biografia": "Michael Ryan Pritchard (Berkeley, California; 4 de mayo de 1972), más conocido como Mike Dirnt, es un músico estadounidense, reconocido por ser el bajista de la banda de punk rock Green Day. Su nombre artístico era originalmente un apodo de sus amigos en la escuela primaria, ya que era el sonido que producía al tocar el bajo; un «dirnt, dirnt, dirnt» mientras tocaba las cuerdas.\n\nEn 1982, Mike Dirnt conoció a Billie Joe Armstrong con quien fundó una banda llamada Sweet Children pero cambiaron su nombre a Green Day en 1989. La primera conversación entre Armstrong y Dirnt trató sobre música, donde se dieron cuenta de que tenían los mismos gustos, a partir de ahí se hicieron muy buenos amigos y empezaron a componer canciones. Dirnt tocaba anteriormente un bajo Gibson Grabber 3 (G3), pero durante Nimrod, lo hizo con un bajo Fender Precision Bass. Pidió a Fender si le podían fabricar un Yh P-bass personalizado y el resultado es el modelo 5aqe5' P-bass de 2004. Fue el bajista de Screeching Weasel en el álbum How to Make Enemies and Irritate People, y fue vocalista en el debut de Squirtgun (también de Lookout).\n"
+	},
+	{
+		"nombre": "Tre Cool",
+		"rol": "Baterista",
+		"imagen": "tre.jpg",
+		"fechaNacimiento": "1972-12-09",
+		"biografia": "Frank Edwin Wright III (Fráncfort, Alemania, 9 de diciembre de 1972) más conocido como Tré Cool, es el baterista de Green Day. Reemplazó al baterista inicial Al Sobrante. Toca también la guitarra y el acordeón en Minority.\n\nTré Cool nació el 9 de diciembre de 1972 en Fráncfort, en la época de la Alemania Occidental. A los catorce años se mudó a Willits, en Mendocino, California, pero antes de mudarse allí creció en una remota zona rural conocida como Iron Peak, a veinticinco kilómetros del pueblo más cercano, Laytonville, California. Wright vivía con su padre, su madre y sus dos hermanos. El padre de Wright, Frank Edwin Wright II, era veterano de la guerra de Vietnam, ya que se había alistado en el ejército cuando quiso alejarse de las drogas y el ambiente hippie de Mendocino. Luego, al regresar de la guerra, se dedicó a trabajar como albañil. La madre de Wright, Linda, era ama de casa."
+	}
+]

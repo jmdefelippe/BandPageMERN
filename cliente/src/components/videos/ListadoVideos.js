@@ -2,7 +2,6 @@ import React, { useContext, useEffect } from 'react';
 import Video from './Video';
 import videoContext from '../../context/videos/videoContext';
 import AlertaContext from '../../context/alertas/alertaContext';
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 const ListadoVideos = () => {
 
@@ -11,9 +10,9 @@ const ListadoVideos = () => {
     const { videos, mensaje, obtenerVideos } = videosContext;
 
     const alertaContext = useContext(AlertaContext);
-    const { alerta, mostrarAlerta } = alertaContext;
+    const { mostrarAlerta } = alertaContext;
 
-    // obtener proyectos cuando carga el componente
+    // obtener videos cuando carga el componente
     useEffect(() => {
 
         // si hay un error
@@ -29,17 +28,13 @@ const ListadoVideos = () => {
     if(videos.length === 0) return <p>No hay videos</p>;
 
     return (
-
         <div className="row">
                 {videos.map(video => 
                     <div className="">
                         <div key={video._id} className=""> <Video video={video}/></div>
                     </div>
                 )}
-                 
         </div>
-
-
     );
 }
 

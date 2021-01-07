@@ -8,7 +8,7 @@ const Inicio = () => {
             <div className="seccion-principal">
                 <Header />
                 <main>
-                    <img src="img/inicio.jpg" class="responsive"  alt="inicio"/>
+                    <img src="img/inicio.jpg" className="responsive"  alt="inicio"/>
                 </main>
                 <Footer/>
             </div>

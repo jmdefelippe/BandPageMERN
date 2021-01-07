@@ -10,8 +10,11 @@ const Letra = () => {
     const albumesContext = useContext(albumContext);
     const letrasContext = useContext(letraContext);
 
-    const { cancionActual } = albumesContext;
-    const { obtenerLetra } = letrasContext;
+    console.log('Letras');
+    console.log(letrasContext);
+
+    const { cancion } = albumesContext;
+    const { letra } = letrasContext;
 
     console.log(albumesContext);
 
@@ -22,9 +25,9 @@ const Letra = () => {
                 <main>
                     <div className="row">
                         <div className="col-3"></div>
-                        <div className="col-6">
-                            <h1>NOMBRE CANCIÓN: {cancionActual}</h1>
-                            <p>Letra de la canción {obtenerLetra}</p>
+                        <div className="col-6 letra">
+                            <h1>{cancion}</h1>
+                            <p>{letra}</p>
                         </div>
                         <div className="col-3"></div>
                     </div>

@@ -7,6 +7,8 @@ export default (state, action) => {
     switch(action.type) {
 
         case OBTENER_LETRA:
+            console.log('por guardar la letra');
+            console.log(action);
             return {
                 ...state,
                 letra: action.payload

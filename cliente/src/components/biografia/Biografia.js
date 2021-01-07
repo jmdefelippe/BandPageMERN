@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../layout/Header';
 import Footer from '../layout/Footer';
-import DetalleBiografia from './DetalleBiografia';
+import ListadoDetalleBiografia from './ListadoDetalleBiografia';
 
 const Biografia = () => {
     return(
@@ -9,7 +9,7 @@ const Biografia = () => {
             <div className="seccion-principal">
                 <Header />
                 <main>
-                    <DetalleBiografia/>
+                    <ListadoDetalleBiografia/>
                 </main>
                 <Footer />
                 

@@ -19,6 +19,7 @@ const AlbumState = props => {
         proyecto: null,
         
 */      
+		cancion: null,
         mensaje: null
     }
 
@@ -57,10 +58,10 @@ const AlbumState = props => {
     }
 
     // obtener la canción seleccionada
-    const cancionActual = ( cancionElegida, albumElegido ) => {
+    const cancionActual = cancion => {
         dispatch({
             type: CANCION_ACTUAL,
-            payload: { cancionElegida, albumElegido }
+            payload: cancion
         })
     }
 
@@ -68,6 +69,7 @@ const AlbumState = props => {
         <albumContext.Provider
             value={{
                 albumes: state.albumes,
+                cancion: state.cancion,
                 mensaje: state.mensaje,
                 obtenerAlbumes,
                 cancionActual

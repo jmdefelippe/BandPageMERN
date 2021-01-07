@@ -4,6 +4,8 @@ import {
     CANCION_ACTUAL
 } from '../../types';
 
+//const { albumElegido, cancionElegida } = actions.payload;
+
 export default (state, action) => {
     switch(action.type) {
 
@@ -20,8 +22,7 @@ export default (state, action) => {
         case CANCION_ACTUAL:
             return {
                 ...state,
-                cancion: state.albumes.canciones.find(cancion => cancion.titulo ===
-                action.payload)
+                cancion: action.payload
             }
         default:
             return state;

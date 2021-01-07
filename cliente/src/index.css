@@ -427,8 +427,6 @@ a {
 
 
 
-
-
 * {
   box-sizing: border-box;
 }
@@ -511,6 +509,16 @@ a {
   border: 3px solid #73AD21;
 */
 }
+
+
+.letra {
+  white-space: pre-wrap;
+}
+
+.biografia {
+  white-space: pre-wrap;
+}
+
 .video {
   width: 20%;
   justify-content: space-between;

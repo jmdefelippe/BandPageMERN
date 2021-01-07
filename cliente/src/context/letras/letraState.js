@@ -12,7 +12,7 @@ import clienteAxios from '../../config/axios';
 const LetraState = props => {
 
     const initialState = {
-        letra : {},
+        letra : "",
         mensaje: null
     }
 
@@ -20,11 +20,10 @@ const LetraState = props => {
     const [state, dispatch] = useReducer(letraReducer, initialState);
 
     // obtener letra de una canción
-    const obtenerLetra = async ( cancion ) => {
+    const obtenerLetra = async cancion => {
         try {
             const url = `https://api.lyrics.ovh/v1/Green Day/${cancion}`;
             const resultado = await clienteAxios.get(url);
-            
             dispatch({
                 type: OBTENER_LETRA,
                 payload: resultado.data.lyrics

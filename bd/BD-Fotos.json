@@ -1,0 +1,10 @@
+[
+	{
+		"imagen": "1.jpg",
+		"galeria": { "$oid": "5ff230d941cc671790b105f5" }
+	},
+	{
+		"imagen": "2.jpg",
+		"galeria": { "$oid": "5ff230d941cc671790b105f5" }
+	}
+]

@@ -32,10 +32,9 @@ const ListadoIntegrantes = () => {
 
         <div className="contenedor-integrantes">
                 <div className="col-1"></div>       
-                {integrantes.map(integrante => 
-                    <div className="col-3">
+                {integrantes.map( integrante => 
+                    <div className="col-3" key={integrante._id}>
                         <div
-                            key={integrante._id}
                             className="integrante"
                         >
                             <Integrante

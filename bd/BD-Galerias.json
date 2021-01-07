@@ -1,0 +1,42 @@
+[
+	{
+		"titulo" : "Galeria 1",
+		"descripcion" : "descripcion de la galeria 1",
+		"imagen": "galeria1.jpg"
+	},
+	{
+		"titulo" : "Galeria 2",
+		"descripcion" : "descripcion de la galeria 2",
+		"imagen": "galeria2.jpg"
+	},
+	{
+		"titulo" : "Galeria 3",
+		"descripcion" : "descripcion de la galeria 3",
+		"imagen": "galeria3.jpg"
+	},
+	{
+		"titulo" : "Galeria 4",
+		"descripcion" : "descripcion de la galeria 4",
+		"imagen": "galeria3.jpg"
+	},
+	{
+		"titulo" : "Galeria 5",
+		"descripcion" : "descripcion de la galeria 5",
+		"imagen": "galeria5.jpg"
+	},
+	{
+		"titulo" : "Galeria 6",
+		"descripcion" : "descripcion de la galeria 6",
+		"imagen": "galeria6.jpg"
+	},
+	{
+		"titulo" : "Galeria 7",
+		"descripcion" : "descripcion de la galeria 7",
+		"imagen": "galeria7.jpg"
+	},
+	{
+		"titulo" : "Galeria 8",
+		"descripcion" : "descripcion de la galeria 8",
+		"imagen": "galeria8.jpg"
+	}
+]
