@@ -21,6 +21,61 @@
 	},
 	{
 		"imagen": "5.jpg",
+		"galeriaTitulo": "galeria1",
+		"galeria": { "$oid": "5ff67700daa00c06709d7144" }
+	},
+	{
+		"imagen": "6.jpg",
+		"galeriaTitulo": "galeria1",
+		"galeria": { "$oid": "5ff67700daa00c06709d7144" }
+	},
+	{
+		"imagen": "7.jpg",
+		"galeriaTitulo": "galeria1",
+		"galeria": { "$oid": "5ff67700daa00c06709d7144" }
+	},
+	{
+		"imagen": "8.jpg",
+		"galeriaTitulo": "galeria1",
+		"galeria": { "$oid": "5ff67700daa00c06709d7144" }
+	},
+		{
+		"imagen": "9.jpg",
+		"galeriaTitulo": "galeria1",
+		"galeria": { "$oid": "5ff67700daa00c06709d7144" }
+	},
+	{
+		"imagen": "10.jpg",
+		"galeriaTitulo": "galeria1",
+		"galeria": { "$oid": "5ff67700daa00c06709d7144" }
+	},
+	{
+		"imagen": "11.jpg",
+		"galeriaTitulo": "galeria1",
+		"galeria": { "$oid": "5ff67700daa00c06709d7144" }
+	},
+	{
+		"imagen": "12.jpg",
+		"galeriaTitulo": "galeria1",
+		"galeria": { "$oid": "5ff67700daa00c06709d7144" }
+	},
+	{
+		"imagen": "13.jpg",
+		"galeriaTitulo": "galeria1",
+		"galeria": { "$oid": "5ff67700daa00c06709d7144" }
+	},
+	{
+		"imagen": "14.jpg",
+		"galeriaTitulo": "galeria1",
+		"galeria": { "$oid": "5ff67700daa00c06709d7144" }
+	},
+	{
+		"imagen": "15.jpg",
+		"galeriaTitulo": "galeria1",
+		"galeria": { "$oid": "5ff67700daa00c06709d7144" }
+	},
+	{
+		"imagen": "5.jpg",
 		"galeriaTitulo": "galeria2",
 		"galeria": { "$oid": "5ff67700daa00c06709d7145" }
 	},

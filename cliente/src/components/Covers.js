@@ -10,7 +10,7 @@ const Covers = () => {
                 <Header />
                 <main>
                     <div className="contenedorCovers">
-                        <h1 className="albumTitulo">21st Century Breakdown</h1>
+                        <h1 className="center">21st Century Breakdown</h1>
                         <div className="row">
                                 <div className="col-1"></div>
                                 <div className="col-10">
@@ -19,7 +19,7 @@ const Covers = () => {
                                 </div>
                                 <div className="col-1"></div>
                         </div>
-                        <h1 className="albumTitulo">American Idiot</h1>
+                        <h1 className="center">American Idiot</h1>
                         <div className="row">
                                 <div className="col-1"></div>
                                 <div className="col-10">

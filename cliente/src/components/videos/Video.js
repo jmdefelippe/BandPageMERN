@@ -11,7 +11,7 @@ const Video = ({ video }) => {
             <a href={link} target="_blank">
                 <img src={miniatura} class="responsive"  alt="miniatura"/>
             </a>
-            <div className="cancion">{titulo}</div>
+            <div className="cancion center">{titulo}</div>
         </div>
     );
 }

@@ -1,13 +1,8 @@
 const Foto = require('../models/Foto');
 const Galeria = require('../models/Galeria');
 
-const bcryptjs = require('bcryptjs');
-const { validationResult } = require('express-validator');
-const jwt = require ('jsonwebtoken');
-
 // obtiene las fotos por galeria
 exports.obtenerFotos = async (req, res) => {
- 
     try {
         // extraer la galeria y comprobar si existe
         const { galeria } = req.query;

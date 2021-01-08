@@ -25,7 +25,7 @@ const Letra = () => {
                 <main>
                     <div className="row">
                         <div className="col-3"></div>
-                        <div className="col-6 letra">
+                        <div className="col-6 parser">
                             <h1>{cancion}</h1>
                             <p>{letra}</p>
                         </div>

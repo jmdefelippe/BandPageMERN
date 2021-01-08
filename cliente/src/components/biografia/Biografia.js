@@ -7,15 +7,13 @@ const Biografia = () => {
     return(
         <div className="contenedor-app">
             <div className="seccion-principal">
-                <Header />
+                <Header/>
                 <main>
                     <ListadoDetalleBiografia/>
                 </main>
-                <Footer />
-                
+                <Footer/>
             </div>
         </div>
-        
     );
 }
 

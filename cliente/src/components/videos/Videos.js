@@ -7,11 +7,11 @@ const Videos = () => {
     return(
         <div className="contenedor-app">
             <div className="seccion-principal">
-                <Header />
+                <Header/>
                 <main>
                     <ListadoVideos/>
                 </main>
-                <Footer />
+                <Footer/>
             </div>
         </div>
         

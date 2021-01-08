@@ -2,7 +2,6 @@ import React, { useContext, useEffect } from 'react';
 import Galeria from './Galeria';
 import galeriaContext from '../../context/galerias/galeriaContext';
 import AlertaContext from '../../context/alertas/alertaContext';
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 const ListadoGalerias = () => {
 
@@ -11,9 +10,9 @@ const ListadoGalerias = () => {
     const { galerias, mensaje, obtenerGalerias } = galeriasContext;
 
     const alertaContext = useContext(AlertaContext);
-    const { alerta, mostrarAlerta } = alertaContext;
+    const { mostrarAlerta } = alertaContext;
 
-    // obtener proyectos cuando carga el componente
+    // obtener galerias cuando carga el componente
     useEffect(() => {
 
         // si hay un error
@@ -31,19 +30,14 @@ const ListadoGalerias = () => {
     return (
 
         <div className="row">
-                    
             {galerias.map(galeria => 
                 <div key={galeria._id}>
-                    <div className="galeria">
-                        <Galeria
-                            galeria={galeria}
-                        />
-                    </div>
+                    <Galeria
+                        galeria={galeria}
+                    />
                 </div>
             )}
-                 
         </div>
-    
     );
 }
 

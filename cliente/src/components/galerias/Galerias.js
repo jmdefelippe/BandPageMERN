@@ -8,9 +8,9 @@ const Galerias = () => {
     return(
         <div className="contenedor-app">
             <div className="seccion-principal">
-                <Header />
+                <Header/>
                 <main>
-                    <ListadoGalerias />
+                    <ListadoGalerias/>
                 </main>
                 <Footer/>
             </div>

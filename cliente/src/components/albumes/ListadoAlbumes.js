@@ -2,7 +2,6 @@ import React, { useContext, useEffect } from 'react';
 import Album from './Album';
 import albumContext from '../../context/albumes/albumContext';
 import AlertaContext from '../../context/alertas/alertaContext';
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 const ListadoAlbumes = () => {
 
@@ -11,7 +10,7 @@ const ListadoAlbumes = () => {
     const { albumes, mensaje, obtenerAlbumes } = albumesContext;
 
     const alertaContext = useContext(AlertaContext);
-    const { alerta, mostrarAlerta } = alertaContext;
+    const { mostrarAlerta } = alertaContext;
 
     // obtener albumes cuando carga el componente
     useEffect(() => {

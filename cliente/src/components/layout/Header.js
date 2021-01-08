@@ -3,10 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return(
-
         <nav className="app-header">
-        
-            {/* <p className="nombre-usuario">Hola <span>Joan</span></p> */}
             <Link to={'/'}>
                     <img src="img/logo4.png" className="header-logo nav-principal" alt="logo"/>
             </Link>
@@ -28,7 +25,6 @@ const Header = () => {
             <div className="nav-principal">
                 <Link to={'/covers'}>Covers</Link>
             </div>
-
         </nav>
     );
 }

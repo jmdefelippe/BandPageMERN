@@ -29,11 +29,9 @@ const ListadoVideos = () => {
 
     return (
         <div className="row">
-                {videos.map(video => 
-                    <div className="">
-                        <div key={video._id} className=""> <Video video={video}/></div>
-                    </div>
-                )}
+            {videos.map(video => 
+                <div key={video._id} className=""> <Video video={video}/></div>
+            )}
         </div>
     );
 }

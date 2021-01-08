@@ -2,7 +2,6 @@ import React, { useContext, useEffect } from 'react';
 import Integrante from './Integrante';
 import integranteContext from '../../context/integrantes/integranteContext';
 import AlertaContext from '../../context/alertas/alertaContext';
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 const ListadoIntegrantes = () => {
 
@@ -11,9 +10,9 @@ const ListadoIntegrantes = () => {
     const { integrantes, mensaje, obtenerIntegrantes } = integrantesContext;
 
     const alertaContext = useContext(AlertaContext);
-    const { alerta, mostrarAlerta } = alertaContext;
+    const { mostrarAlerta } = alertaContext;
 
-    // obtener proyectos cuando carga el componente
+    // obtener integrantes cuando carga el componente
     useEffect(() => {
 
         // si hay un error
@@ -29,24 +28,19 @@ const ListadoIntegrantes = () => {
     if(integrantes.length === 0) return <p>No hay integrantes</p>;
 
     return (
-
-        <div className="contenedor-integrantes">
-                <div className="col-1"></div>       
-                {integrantes.map( integrante => 
-                    <div className="col-3" key={integrante._id}>
-                        <div
-                            className="integrante"
-                        >
-                            <Integrante
-                                integrante={integrante}
-                            />
-                        </div>
+        <div className="row">
+            <div className="col-1-5"></div>
+            {integrantes.map( integrante => 
+                <div key={integrante._id}>
+                    <div className="integrante">
+                        <Integrante
+                            integrante={integrante}
+                        />
                     </div>
-                )}
-                <div className="col-1"></div> 
+                </div>
+            )}
+            <div className="col-1-5"></div>
         </div>
-
-
     );
 }
 

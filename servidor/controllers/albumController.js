@@ -1,7 +1,4 @@
 const Album = require('../models/Album');
-const bcryptjs = require('bcryptjs');
-const { validationResult } = require('express-validator');
-const jwt = require ('jsonwebtoken');
 
 /** Obtiene todos los albumes */
 exports.obtenerAlbumes = async (req, res, next) => {

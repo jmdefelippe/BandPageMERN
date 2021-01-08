@@ -3,18 +3,21 @@ const mongoose = require('mongoose');
 const IntegranteSchema = mongoose.Schema({
     nombre: {
         type: String,
-        required: true,
-        trim: true
+        required: [true, 'Este valor es necesario!'],
+        maxLength: [100, '100 caracteres como máximo'],
+        minLength: [1, '1 caracter como mínimo']
     },
     rol: {
         type: String,
-        required: true,
-        trim: true
+        required: [true, 'Este valor es necesario!'],
+        maxLength: [100, '100 caracteres como máximo'],
+        minLength: [1, '1 caracter como mínimo']
     },
     imagen: {
         type: String,
-        required: true,
-        trim: true
+        required: [true, 'Este valor es necesario!'],
+        maxLength: [100, '100 caracteres como máximo'],
+        minLength: [1, '1 caracter como mínimo']
     },
     fechaNacimiento: {
         type: Date,
@@ -22,7 +25,7 @@ const IntegranteSchema = mongoose.Schema({
     },
     biografia: {
         type: String,
-        required: true,
+        required: [true, 'Este valor es necesario!'],
         trim: true
     }
 });

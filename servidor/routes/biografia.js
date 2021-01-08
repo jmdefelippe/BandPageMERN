@@ -2,9 +2,8 @@
 const express = require('express');
 const router = express.Router();
 const biografiaController = require('../controllers/biografiaController');
-const { check } = require('express-validator');
 
-// Obtiene todos los registros de los integrantes en la BD
+// Obtiene todos los registros de la biografia en la BD
 router.get('/',
     biografiaController.obtenerBiografia
 );

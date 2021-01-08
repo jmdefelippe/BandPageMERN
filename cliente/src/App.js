@@ -1,7 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; 
-import Login from './components/auth/Login';
-import NuevaCuenta from './components/auth/NuevaCuenta';
 import Biografia from './components/biografia/Biografia';
 import Integrantes from './components/integrantes/Integrantes';
 import Galerias from './components/galerias/Galerias';

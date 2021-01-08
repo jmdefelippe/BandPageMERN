@@ -14,7 +14,7 @@ const DetalleBiografia = ({ detalleBiografia }) => {
             </div>
             <div className="col-6">
                 <h2>{destacado}</h2>
-                <p className="biografia">{detalle}</p>
+                <p className="parser">{detalle}</p>
             </div>
             <div className="col-1"></div>
         </div>
