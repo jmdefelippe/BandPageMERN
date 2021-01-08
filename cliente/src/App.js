@@ -4,6 +4,7 @@ import Login from './components/auth/Login';
 import NuevaCuenta from './components/auth/NuevaCuenta';
 import Biografia from './components/biografia/Biografia';
 import Integrantes from './components/integrantes/Integrantes';
+import Galerias from './components/galerias/Galerias';
 import Fotos from './components/fotos/Fotos';
 import Albumes from './components/albumes/Albumes';
 import Letra from './components/letras/Letra';
@@ -36,6 +37,7 @@ function App() {
                               <Route exact path='/' component={Inicio} />
                               <Route exact path='/biografia' component={Biografia} />
                               <Route exact path='/integrantes' component={Integrantes} />
+                              <Route exact path='/galerias' component={Galerias} />
                               <Route exact path='/fotos' component={Fotos} />
                               <Route exact path='/discografia' component={Albumes} />
                               <Route exact path='/letra' component={Letra} />

@@ -1,10 +1,42 @@
 [
 	{
 		"imagen": "1.jpg",
-		"galeria": { "$oid": "5ff230d941cc671790b105f5" }
+		"galeriaTitulo": "galeria1",
+		"galeria": { "$oid": "5ff67700daa00c06709d7144" }
 	},
 	{
 		"imagen": "2.jpg",
-		"galeria": { "$oid": "5ff230d941cc671790b105f5" }
+		"galeriaTitulo": "galeria1",
+		"galeria": { "$oid": "5ff67700daa00c06709d7144" }
+	},
+	{
+		"imagen": "3.jpg",
+		"galeriaTitulo": "galeria1",
+		"galeria": { "$oid": "5ff67700daa00c06709d7144" }
+	},
+	{
+		"imagen": "4.jpg",
+		"galeriaTitulo": "galeria1",
+		"galeria": { "$oid": "5ff67700daa00c06709d7144" }
+	},
+	{
+		"imagen": "5.jpg",
+		"galeriaTitulo": "galeria2",
+		"galeria": { "$oid": "5ff67700daa00c06709d7145" }
+	},
+	{
+		"imagen": "6.jpg",
+		"galeriaTitulo": "galeria2",
+		"galeria": { "$oid": "5ff67700daa00c06709d7145" }
+	},
+	{
+		"imagen": "7.jpg",
+		"galeriaTitulo": "galeria2",
+		"galeria": { "$oid": "5ff67700daa00c06709d7145" }
+	},
+	{
+		"imagen": "8.jpg",
+		"galeriaTitulo": "galeria2",
+		"galeria": { "$oid": "5ff67700daa00c06709d7145" }
 	}
 ]

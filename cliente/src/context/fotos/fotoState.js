@@ -19,7 +19,7 @@ const FotoState = props => {
 
     // crear las funciones
 
-    // obtener fotos del galeria
+    // obtener fotos de la galeria
     const obtenerFotos = async galeria => {
         try {
             const resultado = await clienteAxios.get('/api/fotos', { params: { galeria }});

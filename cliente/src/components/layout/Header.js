@@ -17,7 +17,7 @@ const Header = () => {
                 <Link to={'/integrantes'}>Integrantes</Link>
             </div>
             <div className="nav-principal">
-                <Link to={'/fotos'}>Fotos</Link>
+                <Link to={'/galerias'}>Fotos</Link>
             </div>
             <div className="nav-principal">
                 <Link to={'/discografia'}>Discografia</Link>

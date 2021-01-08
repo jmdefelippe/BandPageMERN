@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const BiografiaSchema = mongoose.Schema(
     {
-        resumen: {
+        destacado: {
             type: String,
             required: [true, 'Este valor es necesario!'],
             trim: true,

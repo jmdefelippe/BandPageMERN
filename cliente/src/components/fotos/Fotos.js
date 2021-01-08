@@ -2,8 +2,7 @@ import React from 'react';
 import Header from '../layout/Header';
 import Footer from '../layout/Footer';
 
-import ListadoGalerias from '../fotos/ListadoGalerias';
-
+import ListadoFotos from './ListadoFotos';
 
 const Fotos = () => {
     return(
@@ -11,7 +10,7 @@ const Fotos = () => {
             <div className="seccion-principal">
                 <Header />
                 <main>
-                    <ListadoGalerias />
+                    <ListadoFotos />
                 </main>
                 <Footer/>
             </div>
