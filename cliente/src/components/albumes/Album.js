@@ -8,20 +8,11 @@ const Album = ({ album }) => {
     const albumesContext = useContext(albumContext);
     const letrasContext = useContext(letraContext);
 
-    const { cancionActual, cancion } = albumesContext;
+    const { cancionActual } = albumesContext;
     const { obtenerLetra } = letrasContext;
-/*
-    // función para agregar el proyecto actual
-    const seleccionarProyecto = id => {
-        proyectoActual(id); // fijar un proyecto actual
-        obtenerTareas(id); // filtrar las tareas cuando se de click
-    }
-*/
 
     const seleccionarCancion = async (cancionElegida) => {
         cancionActual(cancionElegida); // fijar una canción actual
-        //console.log('Me mando ' + cancionElegida);
-        //console.log('acaaaaaa' + cancion);
         await obtenerLetra(cancionElegida); // filtrar las canciones cuando se de click
     }
 

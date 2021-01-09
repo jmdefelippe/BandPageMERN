@@ -1,26 +1,20 @@
 import {
-    OBTENER_ALBUMES,
-    ALBUM_ERROR,
-    CANCION_ACTUAL
+    OBTENER_PLAYLISTS,
+    PLAYLIST_ERROR
 } from '../../types';
 
 export default (state, action) => {
     switch(action.type) {
 
-        case OBTENER_ALBUMES:
+        case OBTENER_PLAYLISTS:
             return {
                 ...state,
-                albumes: action.payload
+                playlists: action.payload
             }
-       case ALBUM_ERROR:
+       case PLAYLIST_ERROR:
             return {
                 ...state,
                 mensaje: action.payload
-            }
-        case CANCION_ACTUAL:
-            return {
-                ...state,
-                cancion: action.payload
             }
         default:
             return state;

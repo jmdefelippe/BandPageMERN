@@ -1,31 +1,31 @@
 import React, { useReducer } from 'react';
 
-import videoContext from './videoContext';
-import videoReducer from './videoReducer';
+import miniaturaContext from './miniaturaContext';
+import miniaturaReducer from './miniaturaReducer';
 import {
-    OBTENER_VIDEOS,
-    VIDEO_ERROR
+    OBTENER_MINIATURAS,
+    MINIATURA_ERROR
 } from '../../types';
 
 import clienteAxios from '../../config/axios';
 
-const VideoState = props => {
+const MiniaturaState = props => {
 
     const initialState = {
-        videos : [],
+        miniaturas : [],
         mensaje: null
     }
 
     // dispatch para ejecutar las acciones
-    const [state, dispatch] = useReducer(videoReducer, initialState);
+    const [state, dispatch] = useReducer(miniaturaReducer, initialState);
 
-    // obtener los videos
-    const obtenerVideos = async () => {
+    // obtener los miniaturas
+    const obtenerMiniaturas = async () => {
         try {
-            const resultado = await clienteAxios.get('/api/videos');
+            const resultado = await clienteAxios.get('/api/miniaturas');
 
             dispatch({
-                type: OBTENER_VIDEOS,
+                type: OBTENER_MINIATURAS,
                 payload: resultado.data
             })
         } catch (error) {
@@ -34,23 +34,23 @@ const VideoState = props => {
                 categoria: 'alerta-error'
             }
             dispatch({
-                type: VIDEO_ERROR,
+                type: MINIATURA_ERROR,
                 payload: alerta
             })
         }
     }
 
     return (
-        <videoContext.Provider
+        <miniaturaContext.Provider
             value={{
-                videos: state.videos,
+                miniaturas: state.miniaturas,
                 mensaje: state.mensaje,
-                obtenerVideos
+                obtenerMiniaturas
             }}
         >
             {props.children}
-        </videoContext.Provider>
+        </miniaturaContext.Provider>
     )
 }
 
-export default VideoState;
+export default MiniaturaState;

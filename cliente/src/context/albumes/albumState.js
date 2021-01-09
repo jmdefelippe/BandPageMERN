@@ -28,14 +28,6 @@ const AlbumState = props => {
 
     // serie de funciones para el CRUD
 
-    /*    
-    const mostrarFormulario = () => {
-        dispatch({
-            type: FORMULARIO_PROYECTO
-        })
-    }
-*/
-
     // obtener los albumes
     const obtenerAlbumes = async () => {
         try {

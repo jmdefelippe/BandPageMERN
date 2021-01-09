@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const VideoSchema = mongoose.Schema(
+const MiniaturaSchema = mongoose.Schema(
     {
         titulo: {
             type: String,
@@ -33,8 +33,8 @@ const VideoSchema = mongoose.Schema(
     },
     {
         autoCreate: true,
-        collection: 'videos'
+        collection: 'miniaturas'
     }
 );
 
-module.exports = mongoose.model('Video', VideoSchema);
+module.exports = mongoose.model('Miniatura', MiniaturaSchema);

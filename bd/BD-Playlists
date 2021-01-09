@@ -1,18 +1,28 @@
 [
 	{
 		"titulo" : "American Idiot",
+		"descripcion" : "Covers de American Idiot",
 		"videos" : [
-			{ "titulo" : "American Idiot", "link" : "https://www.youtube.com/embed/ZmtGwPxgaJk" },
-			{ "titulo" : "Tales Of Another Broken Home", "link" : "https://www.youtube.com/embed/IVogA_qcpoE" },
-			{ "titulo" : "Holiday", "link" : "https://www.youtube.com/embed/bVOrvwmESrY" },
-			{ "titulo" : "Wake Me Up When September Ends", "link" : "https://www.youtube.com/embed/apJEmYSoSIs" }
+			{ "numero" : 1, "titulo" : "American Idiot", "link" : "https://www.youtube.com/embed/ZmtGwPxgaJk" },
+			{ "numero" : 2, "titulo" : "Tales Of Another Broken Home", "link" : "https://www.youtube.com/embed/IVogA_qcpoE" },
+			{ "numero" : 3, "titulo" : "Holiday", "link" : "https://www.youtube.com/embed/bVOrvwmESrY" },
+			{ "numero" : 4, "titulo" : "Wake Me Up When September Ends", "link" : "https://www.youtube.com/embed/apJEmYSoSIs" }
 		]
 	},
 	{
 		"titulo" : "21st Century Breakdown",
+		"descripcion" : "Covers de 21st Century Breakdown",
 		"videos" : [
-			{ "titulo" : "Know Your Enemy", "link" : "https://www.youtube.com/embed/Mt_2qwfqleQ" },
-			{ "titulo" : "21 Guns", "link" : "https://www.youtube.com/embed/10hwnZaeHu8" }
+			{ "numero" : 1, "titulo" : "Know Your Enemy", "link" : "https://www.youtube.com/embed/Mt_2qwfqleQ" },
+			{ "numero" : 2, "titulo" : "21 Guns", "link" : "https://www.youtube.com/embed/10hwnZaeHu8" }
+		]
+	},
+	{
+		"titulo" : "NoraDu",
+		"descripcion" : "Videos Oficiales de Nora Du",
+		"videos" : [
+			{ "numero" : 1, "titulo" : "Que Falta Que Me Hacés", "link" : "https://www.youtube.com/embed/Sw3Lo0TZJCo" },
+			{ "numero" : 2, "titulo" : "Garúa", "link" : "https://www.youtube.com/embed/CJn2vv2K81w" }
 		]
 	}
 ]

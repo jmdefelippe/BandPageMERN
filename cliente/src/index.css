@@ -7,9 +7,10 @@
   --naranja1: #df9643;
   --naranja2: #d67200;
   --naranja3: #d57b15;
+  --rojo1: #f50606;
   --headingFont:'Staatliches', sans-serif;
   --textFont: 'Open Sans', sans-serif;
- 
+  --url: '../public/img/background1.jpg';
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -20,6 +21,7 @@ html {
   font-size: 62.5%; 
 }
 body {
+  background-image: var(--url);
   min-height: 100%;
   background-color: black;
   font-size: 16px; 
@@ -27,6 +29,7 @@ body {
   font-family: var(--textFont);
   color: white;
 }
+
 
 /*
 h1, h2 {
@@ -159,11 +162,16 @@ a {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-.coverSize {
-  width: 384px;
-  height: 240px;
-  margin: 0px 10px 10px 10px;
+.coverSize3 {
+  width: 300px;
+  height: 188px;
 }
+
+.coverSize6 {
+  width: 600px;
+  height: 375px;
+}
+
 
 .contenedorCovers {
   text-align: center;

@@ -1,17 +1,17 @@
 import {
-    OBTENER_VIDEOS,
-    VIDEO_ERROR
+    OBTENER_MINIATURAS,
+    MINIATURA_ERROR
 } from '../../types';
 
 export default (state, action) => {
     switch(action.type) {
 
-        case OBTENER_VIDEOS:
+        case OBTENER_MINIATURAS:
             return {
                 ...state,
-                videos: action.payload
+                miniaturas: action.payload
             }
-       case VIDEO_ERROR:
+       case MINIATURA_ERROR:
             return {
                 ...state,
                 mensaje: action.payload
