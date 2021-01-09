@@ -10,7 +10,7 @@
   --rojo1: #f50606;
   --headingFont:'Staatliches', sans-serif;
   --textFont: 'Open Sans', sans-serif;
-  --url: '../public/img/background1.jpg';
+  --bg: url(../src/assets/img/bg1.jpg);
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -21,7 +21,6 @@ html {
   font-size: 62.5%; 
 }
 body {
-  background-image: var(--url);
   min-height: 100%;
   background-color: black;
   font-size: 16px; 
@@ -30,6 +29,13 @@ body {
   color: white;
 }
 
+.bg-img {
+  background-image: var(--bg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
 /*
 h1, h2 {
@@ -44,7 +50,7 @@ h1 span {
 h1 {
   font-family: var(--headingFont);
   color: var(--naranja3);
-  font-size: 3.2rem;
+  font-size: 2.8rem;
   font-weight: 900;
   margin: 0 0 0.5rem 0;
   text-align: left;
@@ -59,7 +65,6 @@ h2 {
   margin: 0 0 0.5rem 0;
 
 }
-
 p {
   font-family: var(--textFont);
   font-weight: 400;
@@ -79,35 +84,30 @@ p {
   padding: 2px;
 }
 
-.center {
-  text-align: center;
-}
-
-a {
-  text-decoration: none;
-  color: var(--naranja2);
-}
 
 .app-header {
   display: flex;
   justify-content: flex-start;
+/*  justify-content: space-evenly; */
+/*  justify-content: center; */
   align-items: center;
   background-color: var(--naranja3);
   font-family: var(--headingFont);
-  padding: 2.2rem;
+  padding: 1.8rem;
   margin-top: 2.4rem;
   margin-bottom: 2.4rem;
+  font-size: 2.8rem;
 }
 .app-footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+/*  background-color: black;*/
   font-family: var(--headingFont);
   padding: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  font-size: 2.4rem;
+  font-size: 2.0rem;
 }
 .nav-principal a {
   color: var(--blanco);
@@ -120,6 +120,15 @@ a {
 .header-logo {
   width: 95%;
   height: 95%;
+}
+
+.center {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: var(--naranja2);
 }
 
 
@@ -147,6 +156,7 @@ a {
   padding: 15px;
   /* border: 1px solid red; */
 }
+.col-0-5 {width: 4.16%;}
 .col-1 {width: 8.33%;}
 .col-1-5 {width: 12.5%;}
 .col-2 {width: 16.66%;}
@@ -191,13 +201,11 @@ a {
 }
 
 .contenedor-integrantes {
-  display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .contenedor-albumes {
   display: flex;
-  
 }
 
 

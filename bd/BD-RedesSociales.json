@@ -1,0 +1,27 @@
+[
+	{
+		"titulo" : "Instagram",
+		"imagen" : "instagram.png",
+		"link" : "https://www.instagram.com/greenday"
+	},
+	{
+		"titulo" : "Facebook",
+		"imagen" : "facebook.png",
+		"link" : "https://www.facebook.com/greenday"
+	},
+	{
+		"titulo" : "Twitter",
+		"imagen" : "twitter.png",
+		"link" : "https://www.twitter.com/greenday"
+	},
+	{
+		"titulo" : "Youtube",
+		"imagen" : "youtube.png",
+		"link" : "https://www.instagram.com/greenday"
+	},
+	{
+		"titulo" : "Spotify",
+		"imagen" : "spotify.png",
+		"link" : "spotify:artist:7oPftvlwr6VrsViSDV7fJY"
+	}
+]

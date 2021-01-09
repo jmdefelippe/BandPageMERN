@@ -24,12 +24,12 @@ const Letra = () => {
                 <Header />
                 <main>
                     <div className="row">
-                        <div className="col-3"></div>
-                        <div className="col-6 parser">
-                            <h1>{cancion}</h1>
-                            <p>{letra}</p>
+                        <div className="col-4"></div>
+                        <div className="col-4 parser">
+                            <h1 className="center">{cancion}</h1>
+                            <p className="center">{letra}</p>
                         </div>
-                        <div className="col-3"></div>
+                        <div className="col-4"></div>
                     </div>
                     </main>
                 <Footer/>

@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../layout/Header';
 import Footer from '../layout/Footer';
 import ListadoDetalleBiografia from './ListadoDetalleBiografia';
+import Videos from '../videos/Videos';
 
 const Biografia = () => {
     return(
@@ -10,6 +11,7 @@ const Biografia = () => {
                 <Header/>
                 <main>
                     <ListadoDetalleBiografia/>
+                    <Videos/>
                 </main>
                 <Footer/>
             </div>

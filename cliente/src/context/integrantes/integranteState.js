@@ -4,6 +4,7 @@ import integranteContext from './integranteContext';
 import integranteReducer from './integranteReducer';
 import {
     OBTENER_INTEGRANTES,
+    INTEGRANTE_ACTUAL,
     INTEGRANTE_ERROR
 } from '../../types';
 
@@ -17,7 +18,7 @@ const IntegranteState = props => {
         errorformulario: false,
         proyecto: null,
         
-*/      
+*/      integrante: null,
         mensaje: null
     }
 
@@ -55,72 +56,22 @@ const IntegranteState = props => {
         }
     }
 
-/*    
-    // agregar nuevo proyecto
-    const agregarProyecto = async proyecto => {
-
-        try {
-            const resultado = await clienteAxios.post('/api/proyectos', proyecto);
-            console.log(resultado);
-            // insertar el proyecto en el state
-            dispatch({
-                type: AGREGAR_PROYECTO,
-                payload: resultado.data
-            })
-        } catch (error) {
-            const alerta = {
-                msg: 'Hubo un error',
-                categoria: 'alerta-error'
-            }
-            dispatch({
-                type: PROYECTO_ERROR,
-                payload: alerta
-            })
-        }
-
-    }
-
-    // validar el formulario por errores
-    const mostrarError = () => {
+    // selecciona el integrante que el usuario dio click
+    const integranteActual = integranteId => {
         dispatch({
-            type: VALIDAR_FORMULARIO
+            type: INTEGRANTE_ACTUAL,
+            payload: integranteId
         })
     }
 
-    // selecciona el proyecto que el usuario dio click
-    const proyectoActual = proyectoId => {
-        dispatch({
-            type: PROYECTO_ACTUAL,
-            payload: proyectoId
-        })
-    }
-
-    // elimina un proyecto
-    const eliminarProyecto = async proyectoId => {
-        try {
-            await clienteAxios.delete(`/api/proyectos/${proyectoId}`);
-            dispatch({
-                type: ELIMINAR_PROYECTO,
-                payload: proyectoId
-            })
-        } catch (error) {
-            const alerta = {
-                msg: 'Hubo un error',
-                categoria: 'alerta-error'
-            }
-            dispatch({
-                type: PROYECTO_ERROR,
-                payload: alerta
-            })
-        }
-    }
-*/
     return (
         <integranteContext.Provider
             value={{
                 integrantes: state.integrantes,
+                integrante: state.integrante,
                 mensaje: state.mensaje,
-                obtenerIntegrantes
+                obtenerIntegrantes,
+                integranteActual
             }}
         >
             {props.children}

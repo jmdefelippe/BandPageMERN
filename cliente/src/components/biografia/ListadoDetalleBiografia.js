@@ -28,7 +28,7 @@ const ListadoDetalleBiografia = () => {
     if(biografia.length === 0) return <p>No hay biografía</p>;
 
     return (
-        <div>
+        <div className="">
             {biografia.map(detalleBiografia => 
                 <div className="">
                     <div key={detalleBiografia._id} className=""> <DetalleBiografia detalleBiografia={detalleBiografia}/></div>

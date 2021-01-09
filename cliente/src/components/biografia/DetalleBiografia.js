@@ -8,15 +8,15 @@ const DetalleBiografia = ({ detalleBiografia }) => {
     
     return (
         <div className="row">
-            <div className="col-1"></div>
+            <div className="col-0-5"></div>
             <div className="col-4">
                 <img src={imagenBiografia} className="responsive"  alt="biografia"/>
             </div>
-            <div className="col-6">
+            <div className="col-7">
                 <h2>{destacado}</h2>
                 <p className="parser">{detalle}</p>
             </div>
-            <div className="col-1"></div>
+            <div className="col-0-5"></div>
         </div>
     );
 }

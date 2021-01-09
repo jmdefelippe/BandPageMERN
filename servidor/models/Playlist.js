@@ -13,7 +13,7 @@ const PlaylistSchema = mongoose.Schema(
             type: String,
             required: [true, 'Este valor es necesario!'],
             trim: true,
-            maxLength: [1000, '100 caracteres como máximo'],
+            maxLength: [200, '200 caracteres como máximo'],
             minLength: [1, '1 caracter como mínimo']
         },
         videos: [

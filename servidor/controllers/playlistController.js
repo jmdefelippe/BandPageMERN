@@ -1,6 +1,6 @@
 const Playlist = require('../models/Playlist');
 
-/** Obtiene todos los playlists */
+/** Obtiene todas las playlists */
 exports.obtenerPlaylists = async (req, res, next) => {
     try {
         const playlists = await Playlist.find({});
