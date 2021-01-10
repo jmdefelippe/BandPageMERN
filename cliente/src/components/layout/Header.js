@@ -25,6 +25,9 @@ const Header = () => {
             <div className="nav-principal">
                 <Link to={'/covers'}>Covers</Link>
             </div>
+            <div className="nav-principal">
+                <Link to={'/contacto'}>Contacto</Link>
+            </div>
         </nav>
     );
 }

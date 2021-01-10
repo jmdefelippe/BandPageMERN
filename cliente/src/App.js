@@ -1,16 +1,17 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; 
+
 import Biografia from './components/biografia/Biografia';
 import BiografiaIntegrante from './components/integrantes/BiografiaIntegrante';
-import Playlists from './components/playlists/Playlists';
+import Contacto from './components/contacto/Contacto';
+import Inicio from './components/Inicio';
 import Integrantes from './components/integrantes/Integrantes';
 import Galerias from './components/galerias/Galerias';
 import Fotos from './components/fotos/Fotos';
 import Albumes from './components/albumes/Albumes';
 import Letra from './components/letras/Letra';
 import Miniaturas from './components/miniaturas/Miniaturas';
-import Videos from './components/videos/Videos';
-import Inicio from './components/Inicio';
+import Playlists from './components/playlists/Playlists';
 
 import AlbumState from './context/albumes/albumState';
 import AlertaState from './context/alertas/alertaState';
@@ -43,6 +44,7 @@ function App() {
                                     <Route exact path='/' component={Inicio} />
                                     <Route exact path='/biografia' component={Biografia} />
                                     <Route exact path='/biografiaIntegrante' component={BiografiaIntegrante} />
+                                    <Route exact path='/contacto' component={Contacto} />
                                     <Route exact path='/integrantes' component={Integrantes} />
                                     <Route exact path='/galerias' component={Galerias} />
                                     <Route exact path='/fotos' component={Fotos} />

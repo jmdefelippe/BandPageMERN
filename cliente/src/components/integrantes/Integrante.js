@@ -8,7 +8,7 @@ const Integrante = ({ integrante }) => {
     const integrantesContext = useContext(integranteContext);
     const { integranteActual } = integrantesContext;
 
-    const { nombre, rol, imagen, biografia } = integrante;
+    const { nombre, rol, imagen } = integrante;
     let { fechaNacimiento } = integrante;
 
     fechaNacimiento = integrante.fechaNacimiento.substring(0,10);
@@ -27,9 +27,11 @@ const Integrante = ({ integrante }) => {
                     alt=""
                     onClick={() => seleccionarIntegrante(integrante._id)}
                 />
+                <h1 className="center">{nombre}</h1>
+                <h2 className="center">{rol}</h2>
             </Link>
-            <h1 className="center">{nombre}</h1>
-            <h2 className="center">{rol}</h2>
+            
+            
 {/* 
             <h2>Fecha de Nacimiento: {fechaNacimiento}</h2>
             <p className="parser">{biografia}</p>

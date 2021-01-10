@@ -35,11 +35,10 @@ const BiografiaIntegrante = () => {
                         </div>
                         <div className="col-0-5"></div>
                     </div>
-                    </main>
+                </main>
                 <Footer/>
             </div>
         </div>
-        
     );
 }
 

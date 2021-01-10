@@ -1,8 +1,34 @@
-import React from 'react';
+import React, { useContext, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import RedesSociales from '../redesSociales/RedesSociales';
+
+import RedSocial from '../redesSociales/RedSocial';
+import redSocialContext from '../../context/redesSociales/redSocialContext';
+import AlertaContext from '../../context/alertas/alertaContext';
 
 const Footer = () => {
+
+   // extraer redesSociales de state inicial
+   const redesSocialesContext = useContext(redSocialContext);
+   const { redesSociales, mensaje, obtenerRedesSociales } = redesSocialesContext;
+
+   const alertaContext = useContext(AlertaContext);
+   const { mostrarAlerta } = alertaContext;
+
+   // obtener redesSociales cuando carga el componente
+   useEffect(() => {
+
+       // si hay un error
+       if (mensaje) {
+           mostrarAlerta(mensaje.msg, mensaje.categoria);
+       }
+
+       obtenerRedesSociales();
+       // eslint-disable-next-line
+   }, [mensaje]);
+
+   // revisar si redesSociales tiene contenido
+   if(redesSociales.length === 0) return <p>No hay redesSociales</p>;
+
     return(
         <footer className="app-footer">
             {/* <p className="nombre-usuario">Hola <span>Joan</span></p> */}
@@ -24,6 +50,22 @@ const Footer = () => {
             <div className="nav-principal">
                 <Link to={'/covers'}>Covers</Link>
             </div>
+            <div className="nav-principal">
+                <Link to={'/contacto'}>Contacto</Link>
+            </div>
+
+            {redesSociales.map(redSocial => 
+                    <div key={redSocial._id} className="nav-principal"> <RedSocial redSocial={redSocial}/></div>
+            )}
+            
+
+        </footer>
+    );
+}
+
+export default Footer;
+
+/*
             <div className="nav-principal">
                 <a href="https://www.instagram.com/greenday" target="_blank" rel="noreferrer">
                     <img src="img/redesSociales/instagram.png" className="iconSocial"  alt="iconInstagram"/>
@@ -49,9 +91,4 @@ const Footer = () => {
                     <img src="img/redesSociales/spotify.png" className="iconSocial"  alt="iconSpotify"/>
                 </a>              
             </div>
-
-        </footer>
-    );
-}
-
-export default Footer;
+*/
