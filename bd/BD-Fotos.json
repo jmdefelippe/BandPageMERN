@@ -74,6 +74,21 @@
 		"galeriaTitulo": "galeria1",
 		"galeria": { "$oid": "5ff67700daa00c06709d7144" }
 	},
+		{
+		"imagen": "16.jpg",
+		"galeriaTitulo": "galeria1",
+		"galeria": { "$oid": "5ff67700daa00c06709d7144" }
+	},
+	{
+		"imagen": "17.jpg",
+		"galeriaTitulo": "galeria1",
+		"galeria": { "$oid": "5ff67700daa00c06709d7144" }
+	},
+	{
+		"imagen": "18.jpg",
+		"galeriaTitulo": "galeria1",
+		"galeria": { "$oid": "5ff67700daa00c06709d7144" }
+	},
 	{
 		"imagen": "5.jpg",
 		"galeriaTitulo": "galeria2",

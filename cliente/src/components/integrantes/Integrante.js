@@ -23,14 +23,13 @@ const Integrante = ({ integrante }) => {
         <div className="col-3">
             <Link to={'/biografiaIntegrante'}>
                 <img src={profileImg}
-                    className="responsive" alt={nombre}
+                    className="responsive hover" alt={nombre}
                     alt=""
                     onClick={() => seleccionarIntegrante(integrante._id)}
                 />
-                <h1 className="center">{nombre}</h1>
-                <h2 className="center">{rol}</h2>
             </Link>
-            
+            <h1 className="center">{nombre}</h1>
+            <h2 className="center">{rol}</h2>
             
 {/* 
             <h2>Fecha de Nacimiento: {fechaNacimiento}</h2>

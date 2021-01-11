@@ -8,14 +8,20 @@ const Playlist = ({ playlist }) => {
     
     return (
         <div className="row">    
-                <h1 className="center">{playlist.titulo}</h1>
-                {videos.map((video, index) =>
-                    <div className="col-6 center" key={index}>
-                        <iframe src={video.link} class="coverSize6"></iframe>
-                        <h2 className="center"> {video.titulo}</h2>
-                    </div>
-                )}
-        </div>
+            <div className="col-0-5"></div>
+            <div className="col-11">
+                <div className="row bg-dark radius">    
+                    <h1 className="center">{playlist.titulo}</h1>
+                    {videos.map((video, index) =>
+                        <div className="col-6 center" key={index}>
+                            <iframe src={video.link} class="coverSize6"></iframe>
+                            <h2 className="center"> {video.titulo}</h2>
+                        </div>
+                    )}
+                </div>
+            </div>
+            <div className="col-0-5"></div>
+        </div>            
     );
 }
 

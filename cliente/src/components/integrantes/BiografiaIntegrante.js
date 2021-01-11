@@ -24,14 +24,18 @@ const BiografiaIntegrante = () => {
                 <main>
                     <div className="row">
                         <div className="col-0-5"></div>
-                        <div className="col-3">
-                            <img src={profileImg} className="responsive" alt={nombre}/>
-                        </div>
-                        <div className="col-8 parser">
-                            <h1>{nombre}</h1>
-                            <h2>{rol}</h2>
-                            <h2>Fecha de Nacimiento: {fechaNacimiento}</h2>
-                            <p className="parser">{biografia}</p>
+                        <div className="col-11">
+                            <div className="row bg-dark radius">
+                                <div className="col-3">
+                                    <img src={profileImg} className="responsive" alt={nombre}/>
+                                </div>
+                                <div className="col-9 parser">
+                                    <h1>{nombre}</h1>
+                                    <h2>{rol}</h2>
+                                    <h2>Fecha de Nacimiento: {fechaNacimiento}</h2>
+                                    <p className="parser">{biografia}</p>
+                                </div>
+                            </div>
                         </div>
                         <div className="col-0-5"></div>
                     </div>

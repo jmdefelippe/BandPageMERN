@@ -35,6 +35,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+/*
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+*/
 }
 
 /*
@@ -141,6 +145,17 @@ a {
   width: 100%;
   height: auto;
 }
+
+.radius{
+  border-radius: 10px;
+}
+.hoverfotoGaleria:hover {
+  box-shadow: 0 0 3px 1px rgb(247, 134, 6);
+}
+.bg-dark{
+  background-color: #5e555563;
+}
+
 /*
 * {
   box-sizing: border-box;

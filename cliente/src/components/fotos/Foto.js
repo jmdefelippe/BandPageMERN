@@ -7,8 +7,8 @@ const Foto = ({ foto }) => {
     const fotografia = `../img/fotos/${galeriaTitulo}/${imagen}`;
 
     return(
-        <div className="col-3">
-            <img src={fotografia} class="responsive"  alt="foto"/>
+        <div className="col-2">
+            <img src={fotografia} class="responsive radius hover"  alt="foto"/>
         </div>
     );
 }

@@ -28,19 +28,26 @@ const ListadoFotos = () => {
     if(fotosgaleria.length === 0) return <p>No hay fotos</p>;
 
     return (
-        <div className="row">
-            {fotosgaleria.map(foto => 
-                <div
-                    key={foto._id}
-                    className="foto"
-                >
-                <Foto
-                    foto={foto}
-                />
-                </div>
-            )}
-        </div>
-
+    <div className="row">
+        <div className="col-1"></div>
+        <div className="col-10 bg-dark radius">
+       
+            <div className="row">
+                
+                {fotosgaleria.map(foto => 
+                    <div
+                        key={foto._id}
+                        className="foto"
+                    >
+                    <Foto
+                        foto={foto}
+                    />
+                    </div>
+                )}
+            </div>
+            <div className="col-1"></div>
+       
+        </div></div>
     );
 }
 

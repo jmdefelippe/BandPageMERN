@@ -23,10 +23,12 @@ const Galeria = ({ galeria }) => {
     const profileImg = `../img/galerias/${imagen}`;
     
     return (
+
+        
         <div className="col-3">    
             <Link to={'/fotos'}>
                 <img src={profileImg}
-                    className="responsive"
+                    className="responsive hover"
                     alt=""
                     onClick={() => seleccionarGaleria(galeria._id)}
                 />

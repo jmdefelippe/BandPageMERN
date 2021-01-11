@@ -28,15 +28,20 @@ const ListadoGalerias = () => {
     if(galerias.length === 0) return <p>No hay galerias</p>;
 
     return (
-
         <div className="row">
-            {galerias.map(galeria => 
-                <div key={galeria._id}>
-                    <Galeria
-                        galeria={galeria}
-                    />
+            <div className="col-0-5"></div>
+            <div className="col-11 bg-dark radius">
+                <div className="row">
+                    {galerias.map(galeria => 
+                        <div key={galeria._id}>
+                            <Galeria
+                                galeria={galeria}
+                            />
+                        </div>
+                    )}
                 </div>
-            )}
+            </div>
+            <div className="col-0-5"></div>
         </div>
     );
 }
