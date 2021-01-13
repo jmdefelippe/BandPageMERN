@@ -6,14 +6,12 @@ import ListadoIntegrantes from '../integrantes/ListadoIntegrantes';
 const Integrantes = () => {
   
     return(
-        <div className="contenedor-app">
-            <div className="seccion-principal">
-                <Header/>
-                <main>
-                    <ListadoIntegrantes/>
-                </main>
-                <Footer/>
-            </div>
+        <div>
+            <Header/>
+            <main className="main">
+                <ListadoIntegrantes/>
+            </main>
+            <Footer/>
         </div>
     );
 }

@@ -7,7 +7,7 @@ const Inicio = () => {
         <div className="contenedor-app">
             <div className="seccion-principal">
                 <Header />
-                <main>
+                <main className="mt-100">
                     <img src="img/inicio.jpg" className="responsive"  alt="inicio"/>
                 </main>
                 <Footer/>

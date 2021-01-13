@@ -28,12 +28,7 @@ const ListadoFotos = () => {
     if(fotosgaleria.length === 0) return <p>No hay fotos</p>;
 
     return (
-    <div className="row">
-        <div className="col-1"></div>
-        <div className="col-10 bg-dark radius">
-       
-            <div className="row">
-                
+        <div className="row bg-dark radius pd-fotos">
                 {fotosgaleria.map(foto => 
                     <div
                         key={foto._id}
@@ -44,11 +39,34 @@ const ListadoFotos = () => {
                     />
                     </div>
                 )}
-            </div>
-            <div className="col-1"></div>
-       
-        </div></div>
+        </div>
     );
 }
 
 export default ListadoFotos;
+
+/*
+        <div className="row ">
+            <div className="col-0-5"></div>
+            <div className="col-11">
+                <div className="row bg-dark radius">
+                    <div className="col-12">    
+                        {fotosgaleria.map(foto => 
+                            <div
+                                key={foto._id}
+                                className="foto"
+                            >
+                            <Foto
+                                foto={foto}
+                            />
+                            </div>
+                        )}
+                    </div>
+                </div>
+            </div>
+            <div className="col-0-5"></div>
+        </div>
+
+
+
+*/

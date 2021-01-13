@@ -6,14 +6,12 @@ import ListadoFotos from './ListadoFotos';
 
 const Fotos = () => {
     return(
-        <div className="contenedor-app">
-            <div className="seccion-principal">
-                <Header />
-                <main>
-                    <ListadoFotos />
-                </main>
-                <Footer/>
-            </div>
+        <div>
+            <Header />
+            <main className="main-fotos">
+                <ListadoFotos />
+            </main>
+            <Footer/>
         </div>
         
     );

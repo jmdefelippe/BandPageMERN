@@ -8,7 +8,7 @@ const Contacto = () => {
         <div className="contenedor-app">
             <div className="seccion-principal">
                 <Header />
-                <main>
+                <main className="main">
                     <FormContacto/>
                 </main>
                 <Footer/>

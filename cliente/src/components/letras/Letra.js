@@ -22,7 +22,7 @@ const Letra = () => {
         <div className="contenedor-app">
             <div className="seccion-principal">
                 <Header />
-                <main>
+                <main className="main">
                     <div className="row">
                         <div className="col-4"></div>
                         <div className="col-4 parser">

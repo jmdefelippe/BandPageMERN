@@ -23,8 +23,6 @@ const Galeria = ({ galeria }) => {
     const profileImg = `../img/galerias/${imagen}`;
     
     return (
-
-        
         <div className="col-3">    
             <Link to={'/fotos'}>
                 <img src={profileImg}
@@ -36,7 +34,6 @@ const Galeria = ({ galeria }) => {
             <h1>{titulo}</h1>
             <h2>{descripcion}</h2>
         </div>
-        
     );
 }
 

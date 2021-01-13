@@ -5,16 +5,13 @@ import ListadoAlbumes from './ListadoAlbumes';
 
 const Albumes = () => {
     return(
-        <div className="contenedor-app">
-            <div className="seccion-principal">
-                <Header />
-                <main>
+        <div>
+            <Header />
+                <main className="main">
                     <ListadoAlbumes/>
                 </main>
-                <Footer/>
-            </div>
+            <Footer/>
         </div>
-        
     );
 }
 

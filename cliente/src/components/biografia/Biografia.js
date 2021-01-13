@@ -6,15 +6,13 @@ import Videos from '../videos/Videos';
 
 const Biografia = () => {
     return(
-        <div className="contenedor-app">
-            <div className="seccion-principal">
-                <Header/>
-                <main>
-                    <ListadoDetalleBiografia/>
-                    <Videos/>
-                </main>
-                <Footer/>
-            </div>
+        <div>
+            <Header/>
+            <main className="main">
+                <ListadoDetalleBiografia/>
+                <Videos/>
+            </main>
+            <Footer/>
         </div>
     );
 }

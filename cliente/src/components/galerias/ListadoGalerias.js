@@ -28,6 +28,21 @@ const ListadoGalerias = () => {
     if(galerias.length === 0) return <p>No hay galerias</p>;
 
     return (
+        <div className="row bg-dark radius pd-fotos">
+            {galerias.map(galeria => 
+                <div key={galeria._id}>
+                    <Galeria
+                        galeria={galeria}
+                    />
+                </div>
+            )}
+        </div>
+    );
+}
+
+export default ListadoGalerias;
+
+/*
         <div className="row">
             <div className="col-0-5"></div>
             <div className="col-11 bg-dark radius">
@@ -43,7 +58,5 @@ const ListadoGalerias = () => {
             </div>
             <div className="col-0-5"></div>
         </div>
-    );
-}
 
-export default ListadoGalerias;
+*/

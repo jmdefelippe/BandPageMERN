@@ -28,7 +28,7 @@ const ListadoIntegrantes = () => {
     if(integrantes.length === 0) return <p>No hay integrantes</p>;
 
     return (
-        <div className="row">
+        <div className="row bg-dark radius">
             <div className="col-1-5"></div>
             {integrantes.map( integrante => 
                 <div key={integrante._id}>

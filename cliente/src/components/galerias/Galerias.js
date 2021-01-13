@@ -9,7 +9,7 @@ const Galerias = () => {
         <div className="contenedor-app">
             <div className="seccion-principal">
                 <Header/>
-                <main>
+                <main className="main-fotos">
                     <ListadoGalerias/>
                 </main>
                 <Footer/>

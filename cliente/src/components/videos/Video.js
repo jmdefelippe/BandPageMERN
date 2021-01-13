@@ -4,10 +4,12 @@ const Video = ({ video }) => {
 
     const { titulo, link } = video;
     
+    const src = `${link}?loop=1`; //&modestbranding=1 
+
     return (
         <div className="row">    
             <div className="col-12 center responsive">
-                <iframe src={link} class="coverSize6"></iframe>
+                <iframe id="ytplayer" type="text/html" className="youtube-720" src={src} frameborder="0" allowfullscreen/>
                 <h2 className="center"> {titulo}</h2>
             </div>
         </div>
@@ -15,3 +17,10 @@ const Video = ({ video }) => {
 }
 
 export default Video;
+
+
+
+/*
+                    <iframe src={link} class="coverSize6"></iframe>
+
+*/
