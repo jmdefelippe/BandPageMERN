@@ -8,7 +8,7 @@ const Foto = ({ foto }) => {
 
     return(
         <div className="col-2">
-            <img src={fotografia} class="responsive radius hover"  alt="foto"/>
+            <img src={fotografia} className="responsive radius hover"  alt="foto"/>
         </div>
     );
 }

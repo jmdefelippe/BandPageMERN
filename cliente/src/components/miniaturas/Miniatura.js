@@ -9,7 +9,7 @@ const Miniatura = ({ miniatura }) => {
     return (
         <div className="col-3">
             <a href={link} target="_blank">
-                <img src={thumbnail} class="responsive hover"  alt="miniatura"/>
+                <img src={thumbnail} className="responsive hover"  alt="miniatura"/>
             </a>
             <div className="cancion center">{titulo}</div>
         </div>

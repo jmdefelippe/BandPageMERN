@@ -9,7 +9,7 @@ const RedSocial = ({ redSocial }) => {
     return (
         <div className="iconSocial">
             <a href={link} target="_blank">
-                <img src={icono} class="responsive"  alt="redSocial"/>
+                <img src={icono} className="responsive"  alt="redSocial"/>
             </a>
         </div>
     );

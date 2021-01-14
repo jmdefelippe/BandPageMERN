@@ -10,7 +10,7 @@ const Playlist = ({ playlist }) => {
             <h1 className="center">{playlist.titulo}</h1>
             {videos.map((video, index) =>
                 <div className="col-6 center" key={index}>
-                    <iframe type="text/html" className="youtube-size6" src={video.link} frameborder="0" allowfullscreen></iframe>
+                    <iframe type="text/html" className="youtube-size6" src={video.link} frameBorder="0" allowFullScreen></iframe>
                     <h2 className="center"> {video.titulo}</h2>
                 </div>
             )}

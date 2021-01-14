@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import { Redirect } from 'react-router-dom';
 import Header from '../layout/Header';
 import Footer from '../layout/Footer';
 
@@ -10,11 +11,10 @@ const BiografiaIntegrante = () => {
 
     const { integrante } = integrantesContext;
 
+    if(integrante === null) return <Redirect to={'/integrantes'} />;
+
     const { nombre, rol, imagen, biografia } = integrante[0];
-    
-    let fechaNacimiento = null;
-    fechaNacimiento = integrante[0].fechaNacimiento.substring(0,10);
-    
+    let fechaNacimiento = integrante[0].fechaNacimiento.substring(0,10);
     const profileImg = `../img/integrantes/${imagen}`;
 
     return(

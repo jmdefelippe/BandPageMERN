@@ -100,7 +100,6 @@ p {
 .header a {
   float: left;
   display: block;
-  color: #f2f2f2;
   text-align: center;
   padding: 0px 16px;
   text-decoration: none;
@@ -117,16 +116,15 @@ p {
 }
 .header a:hover {
 /*  background: #ddd; */
-  color: black;
+  color: rgba(95, 86, 86, 0.897);
 }
 .header-item {
   position: relative;
 }
-/*
 .active {
   color: black;
 }
-*/
+
 .pxy-10 { padding: 10px;}
 
 .center-v {
@@ -172,6 +170,11 @@ p {
   margin-bottom: 2rem;
   font-size: 2.0rem;
 }
+.app-footer a:hover {
+  /*  background: #ddd; */
+    color: var(--naranja3);
+  }
+
 
 /*
 .app-header {

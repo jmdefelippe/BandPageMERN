@@ -1,4 +1,6 @@
 import React, { useContext } from 'react';
+import { Redirect } from 'react-router-dom';
+
 import Header from '../layout/Header';
 import Footer from '../layout/Footer';
 
@@ -14,7 +16,11 @@ const Letra = () => {
     console.log(letrasContext);
 
     const { cancion } = albumesContext;
+
+    if(cancion === null) return <Redirect to={'/'} />;
+
     const { letra } = letrasContext;
+
 
     console.log(albumesContext);
 

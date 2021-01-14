@@ -9,7 +9,7 @@ const Video = ({ video }) => {
     return (
         <div className="row">    
             <div className="col-12 center responsive">
-                <iframe id="ytplayer" type="text/html" className="youtube-720" src={src} frameborder="0" allowfullscreen/>
+                <iframe id="ytplayer" type="text/html" className="youtube-720" src={src} frameBorder="0" allowFullScreen/>
                 <h2 className="center"> {titulo}</h2>
             </div>
         </div>

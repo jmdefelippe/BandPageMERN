@@ -4,6 +4,7 @@ const cors = require('cors');
 
 const albumes = require('./routes/albumes');
 const biografia = require('./routes/biografia');
+const contactos = require('./routes/contactos');
 const fotos = require('./routes/fotos');
 const galerias = require('./routes/galerias');
 const integrantes = require('./routes/integrantes');
@@ -30,6 +31,7 @@ const port = process.env.port || 4000;
 // importar rutas
 app.use('/api/albumes', albumes);
 app.use('/api/biografia', biografia);
+app.use('/api/contactos', contactos);
 app.use('/api/fotos', fotos);
 app.use('/api/galerias', galerias);
 app.use('/api/integrantes', integrantes);

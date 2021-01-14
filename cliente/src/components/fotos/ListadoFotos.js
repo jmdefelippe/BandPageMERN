@@ -1,4 +1,5 @@
 import React, { useContext, useEffect } from 'react';
+import { Redirect } from 'react-router-dom';
 import Foto from './Foto';
 import fotoContext from '../../context/fotos/fotoContext';
 import AlertaContext from '../../context/alertas/alertaContext';
@@ -25,7 +26,9 @@ const ListadoFotos = () => {
     }, [mensaje]);
 
     // revisar si fotos tiene contenido
-    if(fotosgaleria.length === 0) return <p>No hay fotos</p>;
+    if(fotosgaleria.length === 0) return <Redirect to={'/galerias'} />;
+    
+
 
     return (
         <div className="row bg-dark radius pd-fotos">

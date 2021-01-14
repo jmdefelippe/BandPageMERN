@@ -20,6 +20,7 @@ import FotoState from './context/fotos/fotoState';
 import Galeriatate from './context/galerias/galeriaState';
 import IntegranteState from './context/integrantes/integranteState';
 import LetraState from './context/letras/letraState';
+import NavbarItemState from './context/navbarItems/navbarItemState';
 import PlaylistState from './context/playlists/playlistState';
 import RedSocialState from './context/redesSociales/redSocialState';
 import MiniaturaState from './context/miniaturas/miniaturaState';
@@ -27,44 +28,46 @@ import VideoState from './context/videos/videoState';
 
 function App() {
   return (
-    <RedSocialState>
-      <VideoState>
-        <PlaylistState>
-          <BiografiaState>
-            <Galeriatate>
-              <FotoState>
-                <LetraState>
-                  <MiniaturaState>
-                    <AlbumState>
-                      <IntegranteState>
-                        <AlertaState>    
-                          <Router>
-                                <Switch>
-                                    {/* <Route exact path='/' component={Login} /> */} 
-                                    <Route exact path='/' component={Inicio} />
-                                    <Route exact path='/biografia' component={Biografia} />
-                                    <Route exact path='/biografiaIntegrante' component={BiografiaIntegrante} />
-                                    <Route exact path='/contacto' component={Contacto} />
-                                    <Route exact path='/integrantes' component={Integrantes} />
-                                    <Route exact path='/galerias' component={Galerias} />
-                                    <Route exact path='/fotos' component={Fotos} />
-                                    <Route exact path='/discografia' component={Albumes} />
-                                    <Route exact path='/letra' component={Letra} />
-                                    <Route exact path='/videos' component={Miniaturas} />
-                                    <Route exact path='/covers' component={Playlists} />
-                                </Switch>
-                          </Router>
-                        </AlertaState>
-                      </IntegranteState>
-                    </AlbumState>
-                  </MiniaturaState>    
-                </LetraState>
-              </FotoState>
-            </Galeriatate>
-          </BiografiaState>
-        </PlaylistState>
-      </VideoState>
-    </RedSocialState>
+    <NavbarItemState>
+      <RedSocialState>
+        <VideoState>
+          <PlaylistState>
+            <BiografiaState>
+              <Galeriatate>
+                <FotoState>
+                  <LetraState>
+                    <MiniaturaState>
+                      <AlbumState>
+                        <IntegranteState>
+                          <AlertaState>    
+                            <Router>
+                                  <Switch>
+                                      {/* <Route exact path='/' component={Login} /> */} 
+                                      <Route exact path='/' component={Inicio} />
+                                      <Route exact path='/biografia' component={Biografia} />
+                                      <Route exact path='/biografiaIntegrante' component={BiografiaIntegrante} />
+                                      <Route exact path='/contacto' component={Contacto} />
+                                      <Route exact path='/integrantes' component={Integrantes} />
+                                      <Route exact path='/galerias' component={Galerias} />
+                                      <Route exact path='/fotos' component={Fotos} />
+                                      <Route exact path='/discografia' component={Albumes} />
+                                      <Route exact path='/letra' component={Letra} />
+                                      <Route exact path='/videos' component={Miniaturas} />
+                                      <Route exact path='/covers' component={Playlists} />
+                                  </Switch>
+                            </Router>
+                          </AlertaState>
+                        </IntegranteState>
+                      </AlbumState>
+                    </MiniaturaState>    
+                  </LetraState>
+                </FotoState>
+              </Galeriatate>
+            </BiografiaState>
+          </PlaylistState>
+        </VideoState>
+      </RedSocialState>
+    </NavbarItemState>
   );
 }
 
