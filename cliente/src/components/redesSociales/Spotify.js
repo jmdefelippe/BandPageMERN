@@ -2,7 +2,6 @@ import React from 'react';
 
 const Spotify = () => {
 
-    
     return (
 
         <div className="row">

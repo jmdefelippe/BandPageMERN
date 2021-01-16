@@ -30,35 +30,18 @@ const Footer = () => {
    if(redesSociales.length === 0) return <p>No hay redesSociales</p>;
 
     return(
-        <footer className="app-footer">
-            {/* <p className="nombre-usuario">Hola <span>Joan</span></p> */}
-            <div className="nav-principal">
-                <Link to={'/biografia'}>Biografia</Link>
-            </div>
-            <div className="nav-principal">
-                <Link to={'/integrantes'}>Integrantes</Link>
-            </div>
-            <div className="nav-principal">
-                <Link to={'/galerias'}>Fotos</Link>
-            </div>
-            <div className="nav-principal">
-                <Link to={'/discografia'}>Discografia</Link>
-            </div>
-            <div className="nav-principal">
-                <Link to={'/videos'}>Videos</Link>
-            </div>
-            <div className="nav-principal">
-                <Link to={'/covers'}>Covers</Link>
-            </div>
-            <div className="nav-principal">
-                <Link to={'/contacto'}>Contacto</Link>
-            </div>
+        <footer className="footer">
+                <div><Link to={'/biografia'}>Biografía</Link></div>    
+                <div><Link to={'/integrantes'}>Integrantes</Link></div>    
+                <div><Link to={'/galerias'}>Fotos</Link></div>
+                <div><Link to={'/discografia'}>Discografia</Link></div>
+                <div><Link to={'/videos'}>Videos</Link></div>
+                <div><Link to={'/covers'}>Covers</Link></div>
+                <div><Link to={'/contacto'}>Contacto</Link></div>
 
-            {redesSociales.map(redSocial => 
-                    <div key={redSocial._id} className="nav-principal"> <RedSocial redSocial={redSocial}/></div>
-            )}
-            
-
+                {redesSociales.map(redSocial => 
+                        <div key={redSocial._id} className="nav-principal"> <RedSocial redSocial={redSocial}/></div>
+                )}
         </footer>
     );
 }

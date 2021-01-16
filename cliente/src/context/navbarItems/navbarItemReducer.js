@@ -10,6 +10,19 @@ import {
     DESACTIVAR_ITEMS
 } from '../../types';
 
+/*
+const todosFalse = {
+    biografia: false,
+    integrantes: false,
+    fotos: false,
+    discografia: false,
+    videos: false,
+    covers: false,
+    contacto: false
+}
+
+*/
+
 export default (state, action) => {
     switch(action.type) {
 /*

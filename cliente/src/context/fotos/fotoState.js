@@ -4,6 +4,7 @@ import FotoReducer from './fotoReducer';
 
 import {
     FOTOS_GALERIA,
+    FOTO_ACTUAL
 } from '../../types';
 
 import clienteAxios from '../../config/axios';
@@ -11,7 +12,8 @@ import clienteAxios from '../../config/axios';
 const FotoState = props => {
     const initialState = {
         fotosgaleria: [],
-        errorfoto: false,
+        foto: null,
+        errorfoto: false
     }
 
     // crear dispatch
@@ -32,12 +34,22 @@ const FotoState = props => {
         }
     }
 
+    // selecciona la foto que el usuario dio click
+    const fotoActual = fotoId => {
+        dispatch({
+            type: FOTO_ACTUAL,
+            payload: fotoId
+        })
+    }
+
     return (
         <FotoContext.Provider
             value={{
                 fotosgaleria: state.fotosgaleria,
+                foto: state.foto,
                 errorfoto: state.errorfoto,
-                obtenerFotos
+                obtenerFotos,
+                fotoActual
             }}
         >
             {props.children}

@@ -28,7 +28,7 @@ const ListadoMiniaturas = () => {
     if(miniaturas.length === 0) return <p>No hay miniaturas</p>;
 
     return (
-        <div className="row">
+        <div className="row bg-dark radius">
             {miniaturas.map(miniatura => 
                 <div key={miniatura._id} className=""> <Miniatura miniatura={miniatura}/></div>
             )}

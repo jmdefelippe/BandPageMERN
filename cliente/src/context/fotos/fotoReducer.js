@@ -1,5 +1,6 @@
 import {
-    FOTOS_GALERIA
+    FOTOS_GALERIA,
+    FOTO_ACTUAL
 } from "../../types";
 
 export default (state, action) => {
@@ -8,6 +9,13 @@ export default (state, action) => {
             return {
                 ...state,
                 fotosgaleria: action.payload
+            }
+
+        case FOTO_ACTUAL:
+            return {
+                ...state,
+                foto: state.fotosgaleria.filter(foto => foto._id ===
+                action.payload)
             }
        default:
             return state;

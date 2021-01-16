@@ -8,6 +8,7 @@ import Inicio from './components/Inicio';
 import Integrantes from './components/integrantes/Integrantes';
 import Galerias from './components/galerias/Galerias';
 import Fotos from './components/fotos/Fotos';
+import FotoSeleccionada from './components/fotos/FotoSeleccionada';
 import Albumes from './components/albumes/Albumes';
 import Letra from './components/letras/Letra';
 import Miniaturas from './components/miniaturas/Miniaturas';
@@ -50,6 +51,7 @@ function App() {
                                       <Route exact path='/integrantes' component={Integrantes} />
                                       <Route exact path='/galerias' component={Galerias} />
                                       <Route exact path='/fotos' component={Fotos} />
+                                      <Route exact path='/foto' component={FotoSeleccionada} />
                                       <Route exact path='/discografia' component={Albumes} />
                                       <Route exact path='/letra' component={Letra} />
                                       <Route exact path='/videos' component={Miniaturas} />

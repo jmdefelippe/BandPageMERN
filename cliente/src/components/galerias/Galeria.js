@@ -1,13 +1,9 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import galeriaContext from '../../context/galerias/galeriaContext';
 import fotoContext from '../../context/fotos/fotoContext';
 
 const Galeria = ({ galeria }) => {
     
-    // obtener el state de galerias
-    const galeriasContext = useContext(galeriaContext);
-    const { galeriaActual } = galeriasContext;
     
     // obtener la función del context de fotos
     const fotosContext = useContext(fotoContext);
@@ -15,7 +11,6 @@ const Galeria = ({ galeria }) => {
 
     // función para agregar la galeria actual
     const seleccionarGaleria = id => {
-        galeriaActual(id); // fijar galeria actual
         obtenerFotos(id); // traer las fotos cuando se de click
     }
     

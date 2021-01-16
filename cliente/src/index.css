@@ -115,8 +115,10 @@ p {
 */ 
 }
 .header a:hover {
-/*  background: #ddd; */
+/*  background: #ddd;
   color: rgba(95, 86, 86, 0.897);
+*/
+  color: black;  
 }
 .header-item {
   position: relative;
@@ -155,11 +157,13 @@ p {
 .pd-fotos {padding: 15px;}
 .pd-playlist {padding: 15px;}
 .pd-albumes {padding: 15px;}
+.pd-15 {padding: 15px;}
 .mb-playlist {margin-bottom: 40px;}
 .mb-albumes {margin-bottom: 40px;}
+.mb-biografia {margin-bottom: 40px;}
 
 
-.app-footer {
+.footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -170,9 +174,16 @@ p {
   margin-bottom: 2rem;
   font-size: 2.0rem;
 }
-.app-footer a:hover {
+.footer a {
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+}
+
+.footer a:hover {
   /*  background: #ddd; */
     color: var(--naranja3);
+    
   }
 
 
@@ -196,12 +207,12 @@ p {
 .nav-principal a {
   color: var(--blanco);
   text-decoration: none;
-}*/
+}
 .nav-principal a:first-of-type {
   margin-left: 1rem;
   margin-right: 1rem;
 }
-
+*/
 
 
 .center {
@@ -333,14 +344,35 @@ a {
   justify-content: space-between;
 }
 
+
+.label-text {
+  font-family: var(--textFont);
+  line-height: 1.4;
+  font-size: 1.6rem;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  text-align: left;
+}
 .input-text {
   font-family: var(--textFont);
   line-height: 1.4;
   font-size: 1.6rem;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid var(--naranja3);
+  border-radius: 4px;
 }
 .btn-submit {
   font-family: var(--textFont);
+  color: white;
   line-height: 1.4;
   font-size: 1.6rem;
+  width: 20%;
+  padding: 12px 20px;
+  margin: 15px 0;
+  background-color: var(--naranja3);
+  border: 2px solid var(--naranja3);
 }
-
