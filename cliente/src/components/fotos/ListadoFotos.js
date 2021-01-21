@@ -46,6 +46,17 @@ const ListadoFotos = () => {
     );
 }
 
+/*
+fotosgaleria.forEach(function(foto, i, array) {
+    <div key={foto._id} className="foto">
+        <Foto foto={foto}/>
+    </div>
+})*/
+// console.log(elemento, i);
+// Manzana 0
+// Banana 1
+
+
 export default ListadoFotos;
 
 /*

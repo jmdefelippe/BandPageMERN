@@ -13,6 +13,10 @@ const FotoState = props => {
     const initialState = {
         fotosgaleria: [],
         foto: null,
+/*
+        anterior: null,
+        siguiente: null,
+*/
         errorfoto: false
     }
 

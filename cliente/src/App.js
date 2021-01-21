@@ -16,12 +16,12 @@ import Playlists from './components/playlists/Playlists';
 
 import AlbumState from './context/albumes/albumState';
 import AlertaState from './context/alertas/alertaState';
-import BiografiaState from './context/biografia/biografiaState'; 
+import BiografiaState from './context/biografia/biografiaState';
+import ContactoState from './context/contactos/contactoState';
 import FotoState from './context/fotos/fotoState';
 import Galeriatate from './context/galerias/galeriaState';
 import IntegranteState from './context/integrantes/integranteState';
 import LetraState from './context/letras/letraState';
-import NavbarItemState from './context/navbarItems/navbarItemState';
 import PlaylistState from './context/playlists/playlistState';
 import RedSocialState from './context/redesSociales/redSocialState';
 import MiniaturaState from './context/miniaturas/miniaturaState';
@@ -29,7 +29,7 @@ import VideoState from './context/videos/videoState';
 
 function App() {
   return (
-    <NavbarItemState>
+    <ContactoState>
       <RedSocialState>
         <VideoState>
           <PlaylistState>
@@ -69,7 +69,7 @@ function App() {
           </PlaylistState>
         </VideoState>
       </RedSocialState>
-    </NavbarItemState>
+    </ContactoState>
   );
 }
 

@@ -376,3 +376,16 @@ a {
   background-color: var(--naranja3);
   border: 2px solid var(--naranja3);
 }
+
+.alerta {
+  font-family: var(--textFont);
+  color: white;
+  line-height: 1.4;
+  font-size: 1.6rem;
+  padding: 12px 20px;
+  margin: 15px 0;
+  background-color: var(--naranja3);
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+}

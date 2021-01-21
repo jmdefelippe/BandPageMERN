@@ -2,6 +2,7 @@ import React, { useContext, useEffect } from 'react';
 import Header from '../layout/Header';
 import Footer from '../layout/Footer';
 import FormContacto from './FormContacto';
+import Spotify from '../redesSociales/Spotify';
 
 const Contacto = () => {
 
